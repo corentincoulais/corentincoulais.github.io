@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+{% block main %}
+{% set pubs = data.publications %}
+<header class="page-head">
+  <div class="wrap"><div class="ruled">
+    <p class="eyebrow">Publications</p>
+    <h1 class="page-title">Publications</h1>
+    <p class="page-lead">{{ pubs.intro | mdi }}</p>
+  </div></div>
+</header>
+
+<div class="wrap pub-layout">
+  <aside class="pub-aside">
+    <nav class="year-nav" aria-label="Jump to year">
+      {% for y, items in pub_years %}<a href="#p{{ y }}">{{ y | capitalize if y is string else y }}</a>{% endfor %}
+    </nav>
+  </aside>
+  <div>
+    <div class="pub-search">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+      <input type="search" id="pub-filter" placeholder="Search titles, authors, journals…" aria-label="Search publications" autocomplete="off">
+      <span class="meta" id="pub-count" aria-live="polite">{{ pubs.publications | length }} publications</span>
+    </div>
+    {% for y, items in pub_years %}
+    <section class="pub-year" id="p{{ y }}">
+      <h2 class="year-label">{{ y | capitalize if y is string else y }}</h2>
+      <ol class="pub-list">
+        {% for e in items %}
+        <li class="pub">
+          <span class="pub-n meta">[{{ e.n }}]</span>
+          <div>
+            <h3 class="pub-title">{{ e.title }}</h3>
+            <p class="pub-cite">{{ e.citation | mdi }}</p>
+            {% if e.links %}
+            <p class="pub-links">{% for l in e.links %}<a class="tag" href="{{ l.url }}" rel="noopener">{{ l.label }}</a>{% endfor %}</p>
+            {% endif %}
+          </div>
+        </li>
+        {% endfor %}
+      </ol>
+    </section>
+    {% endfor %}
+    <p class="empty-note" id="pub-empty" hidden>No publications match your search.</p>
+  </div>
+</div>
+{% endblock %}

@@ -1,0 +1,71 @@
+# Site-wide settings. Edit freely; the site rebuilds from this file.
+
+title: Machine Materials Lab
+owner: Corentin Coulais
+subtitle: Coulais Lab · University of Amsterdam
+url: https://coulaislab.com
+description: >-
+  The Machine Materials Lab of Corentin Coulais at the Institute of Physics, University of Amsterdam,
+  develops the physics of soft structured active materials and metamaterials.
+
+# Homepage introduction
+hero:
+  title: We develop the physics of *Machine Materials*
+  lead: >-
+    Artificial materials which combine microstructure and out-of-equilibrium processes
+    to interact with their environment in a programmable fashion.
+  # The wide photo behind the introduction (darkened on the left so the text stays readable)
+  image: /uploads/2022/06/dsc_0168.jpg
+  image_alt: A robotic metamaterial made of motorised units
+  # The animations in the "About the lab" section (they take turns; visitors can pick one).
+  # key must be one of: squares, odd, chameleon
+  visuals:
+    - key: squares
+      label: Auxetic
+      caption: >-
+        Rotating squares: hinged squares counter-rotate, so the material expands in every
+        direction when pulled. Move your pointer across it to deform it.
+      link: /2016/07/22/nonlinear-and-auxetic-metamaterials/
+      link_text: Auxetic metamaterials
+    - key: odd
+      label: Odd
+      caption: >-
+        Odd elasticity: two motorised hinges follow the law shown, whose coupling κᵃ is
+        antisymmetric. Push the left arm and the right arm follows; push the right arm and the
+        left arm turns the other way. Move your pointer over an arm to push it.
+      link: /2022/06/16/reiventing-the-wheel/
+      link_text: Odd matter robots
+    - key: chameleon
+      label: Chameleon
+      caption: >-
+        Structural colour: a nanopatterned membrane of elliptical tiles joined by thin beams.
+        Stretching makes the ellipses rotate and spread apart, which shifts the colour of the
+        light it reflects. Move your pointer to stretch it.
+      link: /2026/04/24/a-nanoscale-chameleon/
+      link_text: A nanoscale chameleon
+
+# Main menu (key is used to highlight the current section)
+nav:
+  - { key: research, title: Research, url: /research/ }
+  - { key: people, title: People, url: /group/ }
+  - { key: publications, title: Publications, url: /publications/ }
+  - { key: gallery, title: Gallery, url: /gallery/ }
+  - { key: lab, title: Our lab, url: /our-lab/ }
+  - { key: awards, title: Awards & careers, url: /awards-distinctions-and-grants/ }
+  - { key: about, title: About, url: /about/ }
+
+contact:
+  email: coulais@uva.nl
+  phone: "+31 (0)20 525 7224"
+  address:
+    - Institute of Physics, Univ. Amsterdam
+    - Science Park 904, 1098 XH Amsterdam
+    - The Netherlands
+  map: https://www.openstreetmap.org/search?query=Science%20Park%20904%20Amsterdam
+
+links:
+  - { title: Google Scholar, url: "http://scholar.google.com/citations?user=7ytsbQgAAAAJ&hl=en&oi=ao" }
+  - { title: arXiv, url: "http://arxiv.org/find/all/1/all:+AND+coulais+corentin/0/1/0/all/0/1" }
+  - { title: ResearcherID, url: "http://www.researcherid.com/rid/P-3920-2015" }
+  - { title: GitLab (code), url: "https://uva-hva.gitlab.host/published-projects" }
+  - { title: Institute of Physics, url: "http://iop.uva.nl" }

@@ -1,0 +1,66 @@
+# Gallery page (/gallery/). Newest first. To add a picture: put the file in static/uploads/
+# and add an entry. `link` (optional) points to the related research highlight.
+
+intro: Pictures from the lab and from our research. Click a picture to enlarge it.
+
+photos:
+  - image: /uploads/2026/11/group-2026.jpg
+    caption: The group (2026)
+    link: /group/
+  - image: /uploads/2026/10/time-crystal-2d.jpg
+    caption: A two-dimensional time crystal made of robotic building blocks (2026)
+    link: /2026/10/14/time-crystals-moving-to-an-internal-beat/
+  - image: /uploads/2026/04/image-2.jpg
+    caption: Non-reciprocal buckling of active filaments (2026)
+    link: /2026/04/25/non-reciprocal-buckling/
+  - image: /uploads/2026/04/image-3.jpg
+    caption: Physical learning in metamaterials (2026)
+    link: /2026/04/25/physical-learning-in-metamaterials/
+  - image: /uploads/2026/04/image.jpg
+    caption: A nanoscale chameleon (2026)
+    link: /2026/04/24/a-nanoscale-chameleon/
+  - image: /uploads/2025/02/img_0072-edited.jpeg
+    caption: The group (2025)
+    link: /group/
+  - image: /uploads/2022/06/dsc_0168.jpg
+    caption: Moving without a brain (2025)
+    link: /2025/08/09/moving-without-a-brain/
+  - image: /uploads/2025/02/picture-1.jpg
+    caption: "Failure by design: creating the ideal shock absorber (2025)"
+    link: /2025/02/09/failure-by-design-creating-the-ideal-shock-absorber/
+  - image: /uploads/2025/02/metagrains.jpg
+    caption: Granular metamaterials (2025)
+    link: /2025/02/09/granular-metamaterials/
+  - image: /uploads/2023/10/cover-suggestion_2021-07-12403e.jpg
+    caption: Non-orientable order (2023)
+    link: /2023/10/20/non-orientable-order/
+  - image: /uploads/2023/06/pxl_20230418_142935259_edit.jpg
+    caption: Stiff vibration dampers (2023)
+    link: /2023/06/06/stiff-vibration-dampers/
+  - image: /uploads/2023/05/elasto_active_highlight_356800.jpg
+    caption: Self-oscillation and synchronisation in elastoactive structures (2023)
+    link: /2023/05/08/self-oscillation-self-snapping-and-synchronisation-in-elastoactive-structures/
+  - image: /uploads/2022/06/dsc_6926-e1655280025528.jpg
+    caption: In the lab (2022)
+    link: /about/
+  - image: /uploads/2020/11/corentin_draftvlowres.jpg
+    caption: Non-Hermitian topology (2020)
+    link: /2020/11/13/non-hermitian-topology/
+  - image: /uploads/2020/09/image1.gif
+    caption: One-way fluid flows (2020)
+    link: /2020/09/07/one-way-fluid-flows/
+  - image: /uploads/2020/09/press_robot_metamat.png
+    caption: Giving off good vibrations, but only in one direction (2019)
+    link: /2019/10/10/giving-off-good-vibrations-but-only-in-one-direction/
+  - image: /uploads/2017/09/picture_lowres.jpg
+    caption: Bigger is different (2017)
+    link: /2017/09/25/bigger-is-different/
+  - image: /uploads/2017/02/cover_nonreciprocity_2016-08-11353b_cropped.jpg
+    caption: One-way metamaterials (2017)
+    link: /2017/02/14/one-way-metamaterials/
+  - image: /uploads/2017/07/appcover-nphys-v13-n11-450x579.png
+    caption: The elastic Leidenfrost effect, on the cover of Nature Physics (2017)
+    link: /2017/07/25/the-elastic-leidenfrost-effect/
+  - image: /uploads/2014/10/hands_holey_sheets.jpg
+    caption: Programmable mechanical metamaterials (2014)
+    link: /2014/10/26/programmable-mechanical-metamaterials/

@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block main %}
+{% set t = data.theses %}
+<header class="page-head">
+  <div class="wrap"><div class="ruled">
+    <a class="back" href="/group/"><span aria-hidden="true">←</span> People</a>
+    <h1 class="page-title">PhD graduations</h1>
+    <p class="page-lead">{{ t.intro | mdi }}</p>
+  </div></div>
+</header>
+
+<div class="wrap">
+  <div class="thesis-grid">
+    {% for th in t.theses %}
+    <article class="thesis">
+      <a href="{{ th.url }}" rel="noopener">
+        <img src="{{ th.cover }}" alt="Thesis cover" decoding="async">
+        <h2 class="thesis-title">{{ th.title }}</h2>
+        <span class="meta">Read the thesis ↗</span>
+      </a>
+    </article>
+    {% endfor %}
+  </div>
+</div>
+{% endblock %}

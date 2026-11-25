@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% if page_title %}{{ page_title }} · {% endif %}{{ site.title }} · {{ site.owner }}</title>
+<meta name="description" content="{{ description or site.description }}">
+<link rel="canonical" href="{{ site.url }}{{ url }}">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="{{ site.title }}">
+<meta property="og:title" content="{{ page_title or site.title }}">
+<meta property="og:description" content="{{ description or site.description }}">
+<meta property="og:url" content="{{ site.url }}{{ url }}">
+<meta property="og:image" content="{{ site.url }}{{ og_image or data.people.group_photo }}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#ffffff">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="alternate" type="application/rss+xml" title="{{ site.title }}: research highlights" href="/feed.xml">
+<link rel="preload" href="/fonts/source-serif-4-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/css/style.css?v={{ version }}">
+<script src="/js/main.js?v={{ version }}" defer></script>
+</head>
+<body class="page-{{ section or 'other' }}">
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap header-top">
+    <a class="inst" href="https://iop.uva.nl" rel="noopener">University of Amsterdam<span>Institute of Physics</span></a>
+    <a class="site-title" href="/">{{ site.title }}</a>
+    <span class="header-owner">{{ site.subtitle.split(' · ')[0] }}</span>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+      <span class="nav-toggle-bars" aria-hidden="true"></span><span class="sr-only">Menu</span>
+    </button>
+  </div>
+  <nav id="site-nav" class="site-nav" aria-label="Main">
+    <div class="wrap">
+      <ul>
+        {% for item in site.nav %}
+        <li><a href="{{ item.url }}"{% if section == item.key %} aria-current="page"{% endif %}>{{ item.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+  </nav>
+</header>
+
+<main id="main">
+{% block main %}{% endblock %}
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div>
+      <p class="footer-name">{{ site.title }}</p>
+      <p>{{ site.owner }}<br>Institute of Physics, University of Amsterdam</p>
+    </div>
+    <div>
+      <h2 class="footer-title">Contact</h2>
+      <p><a href="mailto:{{ site.contact.email }}">{{ site.contact.email }}</a><br>
+      Tel: <a href="tel:{{ site.contact.phone | replace(' ', '') | replace('(0)', '') }}">{{ site.contact.phone }}</a></p>
+      <p>{% for line in site.contact.address %}{{ line }}{% if not loop.last %}<br>{% endif %}{% endfor %}</p>
+    </div>
+    <div>
+      <h2 class="footer-title">Explore</h2>
+      <ul class="footer-links">
+        {% for item in site.nav %}<li><a href="{{ item.url }}">{{ item.title }}</a></li>{% endfor %}
+        <li><a href="/phd-graduations/">PhD graduations</a></li>
+      </ul>
+    </div>
+    <div>
+      <h2 class="footer-title">Elsewhere</h2>
+      <ul class="footer-links">
+        {% for link in site.links %}<li><a href="{{ link.url }}" rel="noopener">{{ link.title }}</a></li>{% endfor %}
+        <li><a href="/feed.xml">RSS feed</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="wrap footer-bottom">
+    <span>© {{ year }} {{ site.owner }} · {{ site.title }}</span>
+    <span>{{ site.contact.address[0] }}</span>
+  </div>
+</footer>
+
+<dialog class="lightbox" aria-label="Image viewer">
+  <figure class="lb-figure">
+    <img class="lb-img" alt="">
+    <figcaption class="lb-caption"></figcaption>
+  </figure>
+  <button class="lb-btn lb-close" type="button" aria-label="Close">&times;</button>
+  <button class="lb-btn lb-prev" type="button" aria-label="Previous picture">&#8249;</button>
+  <button class="lb-btn lb-next" type="button" aria-label="Next picture">&#8250;</button>
+</dialog>
+</body>
+</html>

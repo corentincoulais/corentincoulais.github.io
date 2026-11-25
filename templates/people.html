@@ -1,0 +1,100 @@
+{% extends "base.html" %}
+{% block main %}
+{% set p = data.people %}
+{% set pi = p.members[0] %}
+<header class="page-head">
+  <div class="wrap"><div class="ruled">
+    <p class="eyebrow">People</p>
+    <h1 class="page-title">Group members</h1>
+    <nav class="chips" aria-label="On this page">
+      <a class="chip" href="#members">Members</a>
+      {% if p.masters %}<a class="chip" href="#students">Master students</a>{% endif %}
+      <a class="chip" href="#phd">PhD graduations</a>
+      <a class="chip" href="#alumni">Alumni</a>
+    </nav>
+  </div></div>
+</header>
+
+<div class="wrap">
+  <figure class="group-photo">
+    <img src="{{ p.group_photo }}" alt="Group photo of the Machine Materials Lab" decoding="async">
+  </figure>
+
+  <section class="join-strip ruled" id="join">
+    <h2 class="section-title">Join us</h2>
+    <p>{{ p.intro | mdi }}</p>
+  </section>
+
+  <section class="pi" id="members">
+    <img class="pi-photo" src="{{ pi.photo }}" alt="Portrait of {{ pi.name }}" loading="lazy">
+    <div>
+      <p class="eyebrow">{{ pi.role }}</p>
+      <h2 class="pi-name">{{ pi.name }}</h2>
+      <p><a href="mailto:{{ pi.email }}">{{ pi.email }}</a></p>
+      <ol class="timeline">
+        {% for line in pi.cv %}{% set c = line | cv_split %}
+        <li><span class="meta">{{ c[0] }}</span><span>{{ c[1] }}</span></li>
+        {% endfor %}
+      </ol>
+    </div>
+  </section>
+
+  <div class="member-grid">
+    {% for m in p.members[1:] %}
+    <article class="member">
+      {% if m.photo %}<img class="member-photo" src="{{ m.photo }}" alt="Portrait of {{ m.name }}" loading="lazy" decoding="async">{% endif %}
+      <div class="member-body">
+        <h3 class="member-name">{{ m.name }}</h3>
+        <p class="member-role">{{ m.role }}</p>
+        {% if m.email %}<p class="member-email"><a href="mailto:{{ m.email }}">{{ m.email }}</a></p>{% endif %}
+        {% if m.cv %}
+        <details class="member-cv">
+          <summary>Background</summary>
+          <ol class="timeline timeline-sm">
+            {% for line in m.cv %}{% set c = line | cv_split %}
+            <li><span class="meta">{{ c[0] }}</span><span>{{ c[1] }}</span></li>
+            {% endfor %}
+          </ol>
+        </details>
+        {% endif %}
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+
+  {% if p.masters %}
+  <section class="section-tight" id="students">
+    <h2 class="section-title">{{ p.masters_title }}</h2>
+    <ul class="name-list">
+      {% for s in p.masters %}<li><strong>{{ s.name }}</strong>{% if s.note %}<span>{{ s.note }}</span>{% endif %}</li>{% endfor %}
+    </ul>
+  </section>
+  {% endif %}
+
+  <section class="phd-section" id="phd">
+    <h2 class="section-title">PhD graduations</h2>
+    <p class="section-lead">{{ data.theses.intro | mdi }}</p>
+    <div class="thesis-grid thesis-grid-compact">
+      {% for th in data.theses.theses %}
+      <article class="thesis">
+        <a href="{{ th.url }}" rel="noopener">
+          <img src="{{ th.cover }}" alt="Thesis cover" decoding="async">
+          <h3 class="thesis-title">{{ th.title }}</h3>
+          <span class="meta">Read the thesis ↗</span>
+        </a>
+      </article>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="alumni" id="alumni">
+    <h2 class="section-title">Alumni</h2>
+    {% for g in p.alumni %}
+    <h3 class="alumni-group">{{ g.group }}</h3>
+    <ul class="name-list">
+      {% for s in g.people %}<li><strong>{{ s.name }}</strong>{% if s.note %}<span>{{ s.note }}</span>{% endif %}</li>{% endfor %}
+    </ul>
+    {% endfor %}
+  </section>
+</div>
+{% endblock %}

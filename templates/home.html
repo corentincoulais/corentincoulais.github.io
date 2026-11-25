@@ -1,0 +1,82 @@
+{% extends "base.html" %}
+{% block main %}
+{% set people = data.people %}
+
+<section class="hero">
+  <img class="hero-img" src="{{ site.hero.image }}" alt="{{ site.hero.image_alt }}" fetchpriority="high" decoding="async">
+  <div class="hero-text">
+    <div class="wrap">
+      <div class="ruled">
+        <h1 class="hero-title">{{ site.hero.title | mdi }}</h1>
+        <p class="hero-lead">{{ site.hero.lead }}</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <h2 class="section-title">Latest research</h2>
+    <div class="card-grid card-grid-4">
+      {% for post in news[:4] %}{% include "partials/card.html" %}{% endfor %}
+    </div>
+    <div class="row-end"><a class="more" href="/research/">All {{ news | length }} research highlights →</a></div>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="wrap about-home">
+    <div class="ruled">
+      <h2 class="section-title">About the lab</h2>
+      <div class="about-text">{{ about_html }}</div>
+      <a class="more" href="/about/">Contact and directions →</a>
+    </div>
+    {% set v0 = site.hero.visuals[0] %}
+    <figure class="hero-visual">
+      <canvas class="lattice" data-mode="{{ v0.key }}" role="img" aria-label="Interactive animation of a metamaterial"></canvas>
+      <div class="visual-switch" role="group" aria-label="Choose an animation">
+        {% for v in site.hero.visuals %}
+        <button type="button" data-visual="{{ v.key }}" data-caption="{{ v.caption }}" data-link="{{ v.link }}" data-link-text="{{ v.link_text }}" aria-pressed="{{ 'true' if loop.first else 'false' }}">{{ v.label }}</button>
+        {% endfor %}
+      </div>
+      <figcaption class="visual-caption">
+        <span class="visual-text">{{ v0.caption }}</span>
+        <a class="visual-link" href="{{ v0.link }}"><span>{{ v0.link_text }}</span> →</a>
+      </figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <h2 class="section-title">Awards, grants and careers</h2>
+    <ul class="award-cols">
+      {% for a in data.awards[:6] %}<li><span class="award-date">{{ a.date }}</span>{{ a.text | mdi }}</li>{% endfor %}
+    </ul>
+    <div class="row-end"><a class="more" href="/awards-distinctions-and-grants/">All awards, grants and careers →</a></div>
+  </div>
+</section>
+
+<section class="section section-alt" id="join">
+  <div class="wrap join">
+    <img src="{{ people.group_photo }}" alt="The Machine Materials Lab" loading="lazy" decoding="async" data-zoom data-caption="The Machine Materials Lab">
+    <div class="ruled">
+      <h2 class="section-title">Join us</h2>
+      <p>{{ people.intro | mdi }}</p>
+      <a class="more" href="/group/">Meet the group →</a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <h2 class="section-title">Recent publications</h2>
+    <ol class="pub-list">
+      {% for e in pubs_recent %}
+      <li class="pub"><span class="pub-n">[{{ e.n }}]</span><div><h3 class="pub-title">{{ e.title }}</h3><p class="pub-cite">{{ e.citation | mdi }}</p></div></li>
+      {% endfor %}
+    </ol>
+    <div class="row-end"><a class="more" href="/publications/">All publications →</a></div>
+  </div>
+</section>
+{% endblock %}

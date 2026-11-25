@@ -1,0 +1,7 @@
+# build output (GitHub builds the site itself)
+_site/
+_site.*
+# local backup of the old WordPress site (large; keep it on your computer)
+archive/
+__pycache__/
+.DS_Store

@@ -1,0 +1,714 @@
+intro: For a list of publications, you can visit [Google Scholar](http://scholar.google.com/citations?user=7ytsbQgAAAAJ&hl=en&oi=ao), [arXiv](http://arxiv.org/find/all/1/all:+AND+coulais+corentin/0/1/0/all/0/1), or [researcherID](http://www.researcherid.com/rid/P-3920-2015).
+publications:
+- year: forthcoming
+  title: Folding of multishape metamaterials guided by plasticity
+  citation: 'Liu W., Chombart J.-B., Ennis B. and Coulais C., *arXiv: 2611.16045* (2026)'
+  links:
+  - label: preprint
+    url: https://arxiv.org/abs/2611.16045
+- year: forthcoming
+  title: Tuning nonlinear waves in nonreciprocal active filaments
+  citation: 'Al-Izzi S.C., Binysh J., Du Y., Coulais C. and Carlson A., *arXiv: 2607.01603* (2026)'
+  links:
+  - label: preprint
+    url: https://arxiv.org/abs/2607.01603
+- year: forthcoming
+  title: Dynamical frustration in spacetime metamaterials enables cascading logic and synchronization
+  citation: 'Mahore R., Gamayun O., Noetinger G., Fleury R., Coulais C. and Apffel B., *arXiv: 2606.01797* (2026)'
+  links:
+  - label: preprint
+    url: https://arxiv.org/abs/2606.01797
+- year: forthcoming
+  title: Multipolar Piezoelectricity and Anisotropic Surface Transport in Alterelectrics
+  citation: 'Visser A., Könye V., Janson O., van den Brink J., Coulais C., van Wezel J., *arXiv: 2604.18324*'
+  links:
+  - label: preprint
+    url: https://arxiv.org/abs/2604.18324
+- year: forthcoming
+  title: Fracture metamaterials with on-demand crack paths enabled by bending
+  citation: 'Domino L., Beaure d’Augères M., Zhang J., Janbaz S., Aragòn A. and Coulais C., arXiv: 2405.19061 (2024)'
+  links:
+  - label: preprint
+    url: https://arxiv.org/abs/2405.19061
+- year: 2026
+  title: Wave coarsening drives time crystallization in mechatronic metamaterials
+  citation: Veenstra J., Binysh J., Seinen V., Solé Borràs R., Naber R., Robledo-Poisson D., Hunt A., van Saarloos W., Souslov A. and Coulais C., *Nature* 658, 909–914 (2026)
+  links:
+  - label: preprint
+    url: https://arxiv.org/abs/2508.20052
+  - label: www
+    url: https://www.nature.com/articles/s41586-026-11163-6
+  - label: video
+    url: https://www.youtube.com/watch?v=NKO8esGt8H8
+  - label: IoP News
+    url: https://iop.uva.nl/news/2026/time-crystals-moving-to-an-internal-beat
+- year: 2026
+  title: Curved odd elasticity
+  citation: Zhou Y., Tsaloukidis L., Binysh J., Chen Y., Fakhri N., Coulais C. and Surówka P., *Phys. Rev. Lett.* 137, 088301 (2026)
+  links:
+  - label: preprint
+    url: https://arxiv.org/abs/2512.11037
+  - label: www
+    url: https://doi.org/10.1103/fhwd-lmgk
+- year: 2026
+  title: More is less in unpercolated active solids
+  citation: Binysh J., Baardink G., Veenstra J., Coulais C. and Souslov A., *Phys. Rev. X, 16, 021012* (2026)
+  links:
+  - label: preprint
+    url: https://arxiv.org/abs/2504.18362
+  - label: www
+    url: https://journals.aps.org/prx/abstract/10.1103/flhb-kjyd
+  - label: Physics Viewpoint
+    url: https://physics.aps.org/articles/v19/49
+  - label: IoP News
+    url: https://iop.uva.nl/content/news/2026/04/materials---but-not-as-we-know-them.html?origin=hqZwIY6%2FTt2p%2FbYjLQhlIg
+- year: 2026
+  title: Metamaterials that learn to change shape
+  citation: Du Y., Veenstra J., van Mastrigt R. and Coulais C., *Nat. Phys.* (2026)
+  links:
+  - label: www
+    url: https://www.nature.com/articles/s41567-026-03226-2
+  - label: preprint
+    url: https://arxiv.org/abs/2501.11958
+  - label: Nature Physics News & Views
+    url: https://www.nature.com/articles/s41567-026-03256-w
+  - label: Science Robotics Editor's choice
+    url: https://www.science.org/doi/10.1126/scirobotics.aei8549
+  - label: UvA Press
+    url: https://iop.uva.nl/content/news/2026/04/materials-that-learn-to-change-shape.html?origin=hqZwIY6%2FTt2p%2FbYjLQhlIg
+- year: 2026
+  title: Non-reciprocal buckling makes active filaments polyfunctional
+  citation: Al-Izzi S.\*, Du Y.\*, Veenstra J., Morris R., Souslov A., Carlson A., Coulais C. and Binysh J., *Proc. Natl. Ac. Sc. U.S.A., 123, e2531723123* (2026)
+  links:
+  - label: preprint
+    url: https://arxiv.org/abs/2510.14725
+  - label: www
+    url: https://www.pnas.org/doi/10.1073/pnas.2531723123
+  - label: Cover
+    url: https://www.pnas.org/toc/pnas/123/11
+  - label: IoP News
+    url: https://iop.uva.nl/content/news/2026/04/materials---but-not-as-we-know-them.html?origin=hqZwIY6%2FTt2p%2FbYjLQhlIg
+- year: 2026
+  title: Combinatorial Design of Floppy Modes and Frustrated Loops in Metamaterials
+  citation: Liu W., Sigalov T., Coulais C. and Shokef Y., *Phys. Rev. Lett.*136 (3), 038202 (2026) [Editor’s suggestion]
+  links:
+  - label: preprint
+    url: https://arxiv.org/abs/2503.12867
+  - label: www
+    url: https://journals.aps.org/prl/abstract/10.1103/nqgr-tfb1
+  - label: Featured in Physics
+    url: https://physics.aps.org/articles/v19/10
+- year: 2025
+  title: Roadmap for animate matter
+  citation: Volpe et al., *J. Phys.Cond. Matter 37 333501* (2025)
+  links:
+  - label: www
+    url: https://iopscience.iop.org/article/10.1088/1361-648X/adebd3/meta
+- year: 2025
+  title: Nonlocal mechano-optical metasurfaces
+  citation: van Gorp F., Liu W., Coulais C. and van de Groep J., *ACS Photonics* 12, 5978–5984 (2025)
+  links:
+  - label: preprint
+    url: https://arxiv.org/abs/2502.08204
+  - label: www
+    url: https://pubs.acs.org/doi/full/10.1021/acsphotonics.5c01385
+- year: 2025
+  title: Non-reciprocal breathing solitons
+  citation: Veenstra J., Gamayun O., Brandenbourger M., van Gorp F., Terwissha-Dekker H., Caux J.-S., Coulais C., *Phys. Rev. X 15, 031045 (2025)*
+  links:
+  - label: preprint
+    url: https://arxiv.org/abs/2405.10562
+  - label: www
+    url: https://journals.aps.org/prx/abstract/10.1103/nrv2-9h8z
+  - label: UvA press
+    url: https://iop.uva.nl/content/news/2025/08/the-wave-that-keeps-on-breathing.html
+  - label: new scientist NL
+    url: https://www.newscientist.nl/nieuws/natuurkundigen-creeren-ademende-golf-in-robotisch-materiaal/
+- year: 2025
+  title: Shape Morphing Metamaterials
+  citation: Dudek K., Kadic M., Coulais C. and Bertoldi B., *Nature Review Materials* (2025)
+  links:
+  - label: www
+    url: https://www.nature.com/articles/s41578-025-00828-9
+  - label: preprint
+    url: https://arxiv.org/abs/2501.14804
+- year: 2025
+  title: Prospecting for Pluripotency in Metamaterial Design
+  citation: van Mastrigt R., Dijkstra M., van Hecke M. and Coulais C., *Phys. Rev. Res. 7 (2), 023299 (2025)* [Editors’ Suggestion]
+  links:
+  - label: www
+    url: https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.7.023299
+  - label: preprint
+    url: https://arxiv.org/abs/2406.14980
+- year: 2025
+  title: Adaptive locomotion of active solids
+  citation: Veenstra J., Scheibner C., Brandenbourger M., Binysh J., Souslov A., Vitelli V., Coulais C., *Nature, 639, 935–941 (2025)*
+  links:
+  - label: www
+    url: https://www.nature.com/articles/s41586-025-08646-3
+  - label: preprint
+    url: https://arxiv.org/abs/2108.08837
+  - label: link
+    url: https://youtu.be/yyASTwvHCuU?si=Y0Y-3InsqhBXSmiK
+- year: 2025
+  title: Tuning the buckling sequences of metamaterials using plasticity
+  citation: Liu W., Ennis B. and Coulais C., *J. Mech. Phys. Solids, 196, 106019 (2025)*
+  links:
+  - label: www
+    url: https://www.sciencedirect.com/science/article/pii/S002250962400485X
+- year: 2024
+  title: Micrometer-sized robotic chameleons
+  citation: Coulais C. and van de Groep J., *Science, 386 (6725), 968-969 (2024)*
+  links:
+  - label: www
+    url: https://www.science.org/doi/abs/10.1126/science.adt4838
+- year: 2024
+  title: Inverse design of multishape metamaterials
+  citation: Dykstra D. and Coulais C., *Phys. Rev. Appl., 22 (6), 064013 (2024)* [Editors’ Suggestion]
+  links:
+  - label: preprint
+    url: https://arxiv.org/abs/2304.12124
+  - label: www
+    url: https://journals.aps.org/prapplied/abstract/10.1103/PhysRevApplied.22.064013
+- year: 2024
+  title: Harnessing plasticity in sequential metamaterials for ideal shock absorption
+  citation: Liu W., Janbaz S, Dykstra D., Ennis B. and Coulais C., *Nature, 634, 842–847 (2024)*
+  links:
+  - label: preprint
+    url: https://arxiv.org/abs/2310.04748
+  - label: www
+    url: https://www.nature.com/articles/s41586-024-08037-0
+  - label: Nature Research briefing
+    url: https://www.nature.com/articles/d41586-024-03599-5
+  - label: UvA Press release
+    url: https://iop.uva.nl/shared/uva/en/news/press-releases/2024/11/failure-by-design-creating-the-ideal-shock-absorber.html?origin=hqZwIY6%2FTt2p%2FbYjLQhlIg
+  - label: Het Parool
+    url: https://www.parool.nl/nederland/uva-en-tata-steel-ontwerpen-nieuw-soort-materiaal-dat-stijf-en-toch-licht-is-heel-geschikt-voor-een-auto~b6a3c49c/?referrer=https://duckduckgo.com/
+  - label: De Ingenieur
+    url: https://deingenieur.nl/artikelen/betere-kreukelzones-met-metamaterialen
+- year: 2024
+  title: Suppressing torsional buckling in auxetic meta-shells
+  citation: Gorbani A., Mirzaali M. J., Roebroek T., Coulais C., Bonn D., van der Linden E., Habibi M., *Nat. Commun., 15, 6999* (2024)
+  links:
+  - label: www
+    url: https://www.nature.com/articles/s41467-024-51104-3
+- year: 2024
+  title: 'Model of Active solids: rigid body motion and shape-changing mechanisms'
+  citation: Hernández-López C., Baconnier P., Coulais C., Dauchot O. and Düring, G., *Phys. Rev. Lett., 132, 238303* (2024)
+  links:
+  - label: preprint
+    url: https://arxiv.org/abs/2310.12879
+  - label: www
+    url: https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.132.238303
+  - label: APS Focus
+    url: https://physics.aps.org/articles/v17/94
+- year: 2024
+  title: Elasticity and rheology of a uxetic granular metamaterials
+  citation: Haver D., Acuña D., Janbaz S., Lerner E., Düring, G. and Coulais C., *Proc. Natl. Ac. Sc. U.S.A. 121, e*231791512 (2024)
+  links:
+  - label: preprint
+    url: https://arxiv.org/abs/2310.03547
+  - label: www
+    url: https://www.pnas.org/doi/10.1073/pnas.2317915121
+  - label: UvA press
+    url: https://iop.uva.nl/content/news/2024/04/like-sands-through-the-hourglass---but-not-quite.html?origin=hqZwIY6%2FTt2p%2FbYjLQhlIg
+- year: 2024
+  title: Non-reciprocal topological solitons in active metamaterials
+  citation: Veenstra J., Gamayun O., Guo, X., Sarvi A., Ventura Meinersen C. and Coulais C., *Nature*627, 528-533 (2024)
+  links:
+  - label: preprint
+    url: https://arxiv.org/abs/2312.03544
+  - label: www
+    url: https://www.nature.com/articles/s41586-024-07097-6
+  - label: pdf
+    url: https://eur04.safelinks.protection.outlook.com/?url=https%3A%2F%2Frdcu.be%2FdBUja&data=05%7C02%7CC.J.M.Coulais%40uva.nl%7Cf0ffb96fd93548fb346d08dc48ffd49f%7Ca0f1cacd618c4403b94576fb3d6874e5%7C0%7C0%7C638465510822600133%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&sdata=yseovyUdrhu%2FYFalv36M64Kk81Nom%2FsNe2IwTMymLYI%3D&reserved=0
+  - label: News & Views
+    url: https://www.nature.com/articles/d41586-024-00622-7
+  - label: UvA press
+    url: https://iop.uva.nl/content/news/2024/03/an-endless-domino-effect.html?origin=hqZwIY6%2FTt2p%2FbYjLQhlIg
+- year: 2024
+  title: Thermoresponsive oil-continuous gels based on double-interpenetrating colloidal-particle networks
+  citation: 'Macias-Rodriguez B., Gouzy R., Coulais C and Velikov K. P., *Soft Matter DOI: (2024)*'
+  links:
+  - label: 10.1039/D3SM01582C
+    url: https://doi.org/10.1039/D3SM01582C
+  - label: www
+    url: https://pubs.rsc.org/en/content/articlelanding/2024/sm/d3sm01582c/unauth
+- year: 2024
+  title: Diffusive kinks turn kirigami into machines
+  citation: Janbaz S. and Coulais C., *Nat. Commun. 15, 1255 (2024)*
+  links:
+  - label: www
+    url: https://www.nature.com/articles/s41467-024-45602-7
+  - label: preprint
+    url: https://arxiv.org/abs/2211.11600
+- year: 2024
+  title: Model-free characterization of topological edge and corner states in mechanical networks kling metamaterials
+  citation: Guzman M., Guo X., Coulais C., Carpentier D. and Bartolo D., *Proc. Natl. Ac. Sc. U.S.A.* 121 (4) e2305287121 (2024)
+  links:
+  - label: preprint
+    url: https://arxiv.org/abs/2304.04832
+  - label: www
+    url: https://www.pnas.org/doi/10.1073/pnas.2305287121
+  - label: pdf
+    url: https://pure.uva.nl/ws/files/228747550/guzman-et-al-2024-model-free-characterization-of-topological-edge-and-corner-states-in-mechanical-networks.pdf
+  - label: PNAS Commentary
+    url: https://www.pnas.org/doi/abs/10.1073/pnas.2322681121
+  - label: UvA press
+    url: https://iop.uva.nl/content/news/2024/01/new-method-flips-the-script-on-topological-physics.html?origin=hqZwIY6%2FTt2p%2FbYjLQhlIg
+- year: 2023
+  title: Emergent nonlocal combinatorial design rules for multimodal metamaterials
+  citation: van Mastrigt, Coulais C. and van Hecke, *Phys. Rev. E*, 108, 065002 (2023)
+  links:
+  - label: www
+    url: https://journals.aps.org/pre/abstract/10.1103/PhysRevE.108.065002
+  - label: preprint
+    url: https://arxiv.org/abs/2306.07834
+- year: 2023
+  title: Buckling metamaterials for extreme vibration damping
+  citation: Dykstra D., Lenting C., Masurier A. and Coulais C., *Adv. Mater.*, 35, 2301747 (2023)
+  links:
+  - label: preprint
+    url: https://arxiv.org/abs/2302.11968
+  - label: www
+    url: https://onlinelibrary.wiley.com/doi/abs/10.1002/adma.202301747
+  - label: UvA Press release
+    url: https://iop.uva.nl/content/news/2023/06/buckle-up-a-new-class-of-materials-is-here.html
+  - label: link
+    url: https://www.youtube.com/watch?v=fjIZdACzVuI
+- year: 2023
+  title: Non-orientable order and non-commutative response in frustrated metamaterials
+  citation: Guo X., Guzman M., Carpentier D., Bartolo D., Coulais C., *Nature*, 618, 506–512 (2023)
+  links:
+  - label: preprint
+    url: https://arxiv.org/abs/2111.13933
+  - label: www
+    url: https://www.nature.com/articles/s41586-023-06022-7
+  - label: pdf
+    url: https://hdl.handle.net/11245.1/3c25adf1-20f9-4762-a7fd-b129d63707ed
+  - label: UvA Press release
+    url: https://iop.uva.nl/content/news/2023/06/metamaterials-with-built-in-frustration-have-mechanical-memory.html?origin=hqZwIY6%2FTt2p%2FbYjLQhlIg
+  - label: condmat JC
+    url: https://www.condmatjclub.org/uploads/2022/02/JCCM_February_2022_01.pdf
+- year: 2023
+  title: Shape memory soft robotics with yield stress fluids
+  citation: Wilt J., Overvelde B. and Coulais C., *Advanced Intelligent Systems* DOI:10.1002/aisy.202200332 (2023)
+  links:
+  - label: www
+    url: https://onlinelibrary.wiley.com/doi/10.1002/aisy.202200332
+- year: 2023
+  title: Self-oscillation and Synchronisation Transitions in Elasto-Active Structures
+  citation: Zheng E., Brandenburger M., Robinet L., Schall P., Lerner E., Coulais C., *Phys. Rev. Lett.*, 130, 178202 (2023) Picked as Editor’s suggestion in PRL.
+  links:
+  - label: preprint
+    url: https://arxiv.org/abs/2106.05721
+  - label: www
+    url: https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.130.178202
+  - label: pdf
+    url: /uploads/2023/05/zheng_prl2023.pdf
+  - label: UvA Press release
+    url: https://iop.uva.nl/content/news/2023/05/toys-demonstrate-how-biological-machines-move.html
+- year: 2023
+  title: Control Architectures for Metamaterials in Vibration Control
+  citation: Buskes V.F., Kaczmarek M.B., Veenstra J.C., Coulais C. and HosseinNia S.H., *IEEE Int. Conf. Mechatron.*, DOI:10.1109/ICM54990.2023.10101931 (2023)
+  links:
+  - label: www
+    url: https://ieeexplore.ieee.org/abstract/document/10101931
+  - label: pdf
+    url: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10101931&tag=1
+- year: 2022
+  title: Machine Learning of Implicit Combinatorial Rules in Mechanical Metamaterials
+  citation: van Mastrigt R., Dijkstra M., van Hecke M., Coulais C., *Phys. Rev. Lett.*, 129, 198003 (2022)
+  links:
+  - label: preprint
+    url: https://arxiv.org/abs/2202.03049
+  - label: www
+    url: https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.129.198003
+  - label: APS Synopsis
+    url: https://physics.aps.org/articles/v15/s150
+  - label: UvA Press Release
+    url: https://iop.uva.nl/content/news/2022/11/floppy-or-not-ai-predicts-properties-of-complex-metamaterials.html?cb
+  - label: pdf
+    url: /uploads/2022/11/vanmastrigt_prl2022.pdf
+  - label: Materials Today
+    url: https://www.materialstoday.com/mechanical-properties/news/designing-novel-metamaterials-made-easy-with-ai/
+  - label: Phys.org
+    url: https://phys.org/news/2022-11-machine-infer-complex-mechanical-metamaterials.html
+- year: 2022
+  title: Selective and Collective Actuation in Active Solids
+  citation: Baconnier P., Shohat D., Hernandèz C., Coulais C., Démery V., Düring G., Dauchot O., *Nat. Phys., 2022,*
+  links:
+  - label: www
+    url: https://doi.org/10.1038/s41567-022-01704-x
+  - label: preprint
+    url: http://export.arxiv.org/abs/2110.01516
+  - label: www
+    url: https://www.nature.com/articles/s41567-022-01704-x
+  - label: news and views
+    url: https://www.nature.com/articles/s41567-022-01735-4
+- year: 2022
+  title: The extreme mechanics of viscoelastic metamaterials
+  citation: Dykstra D.M.J., Janbaz S., and Coulais C., *APL Materials*, 2022, 10, 080702 (2022) [pdf]
+  links:
+  - label: preprint
+    url: https://arxiv.org/abs/2204.01375
+- year: 2022
+  title: Edible mechanical metamaterials with designed fracture for mouthfeel control
+  citation: Souto A., Zhang J., Aragón A.M., Velikov K, and Coulais C., *Soft Matter*, 2022, 18, 2910 – 2919 (2022)
+  links:
+  - label: preprint
+    url: https://arxiv.org/abs/2103.14909
+  - label: pdf
+    url: https://pubs.rsc.org/en/content/articlelanding/2022/sm/d1sm01761f
+- year: 2022
+  title: Conformal Elasticity of Mechanism-Based Metamaterials
+  citation: Czajkowski M., Coulais C., van Hecke M., Rocklin D.Z., *Nature Communications*, 13, 221 (2022)
+  links:
+  - label: preprint
+    url: https://arxiv.org/abs/2103.12683
+  - label: www
+    url: https://www.nature.com/articles/s41467-021-27825-0
+- year: 2021
+  title: Geometrical control of sliding friction
+  citation: Liefferink R., Weber B., Coulais C. and Bonn D., *Extreme Mechanics Letters,*49*, 101475* (2021)
+  links:
+  - label: www
+    url: https://www.sciencedirect.com/science/article/pii/S2352431621001814?casa_token=rSGN6P3U_LIAAAAA:HDPq6CjQDva1dyavMKfImujk-na4aM_f2UftdAU98lvwbPcH7ooq8mnkc5Rq_2DiBYAgCIpVng
+- year: 2021
+  title: Inverted and programmable Poynting effects in metamaterials
+  citation: Ghorbani A., Dykstra D.M.J., Coulais C., Bonn D., van der Linden E., Habibi M., *Advanced Science 2102279* (2021)
+  links:
+  - label: preprint
+    url: https://arxiv.org/abs/2102.10904
+  - label: www
+    url: https://onlinelibrary.wiley.com/doi/10.1002/advs.202102279
+- year: 2021
+  title: Machine learning of mechanisms in combinatorial metamaterials
+  citation: van Mastrigt R., Coulais C., van Hecke M. and Dijkstra M., *2021 Fifteenth International Congress on Artificial Materials for Novel Wave Phenomena (Metamaterials)*, 442–444 (2021)
+  links:
+  - label: www
+    url: https://doi.org/10.1109/Metamaterials52332.2021.9577168
+- year: 2021
+  title: Oligomodal metamaterials with multifunctional mechanics
+  citation: Bossart A.\*, Dykstra D.M.J.\*, van der Laan J. and Coulais C., *Proc. Natl. Ac. Sc. U.S.A 118 (21) e2018610118* (2021)
+  links:
+  - label: preprint
+    url: https://arxiv.org/abs/2006.05149
+  - label: www
+    url: https://www.pnas.org/content/118/21/e2018610118
+  - label: uva press release
+    url: https://iop.uva.nl/content/news/2021/05/one-material-two-functionalities.html
+- year: 2021
+  title: Snappy data storage
+  citation: Coulais C., Nature 589, 360-361 (2021) *invited News and Views article to feature the*
+  links:
+  - label: www
+    url: https://www.nature.com/articles/d41586-021-00080-5
+  - label: Nature paper article of Chen et al.
+    url: https://www.nature.com/articles/s41586-020-03123-5
+- year: 2021
+  title: Topology and broken hermiticity
+  citation: Coulais C., Fleury R. and van Wezel J.*, Nat. Phys. (2021)*
+  links:
+  - label: www
+    url: https://doi.org/10.1038/s41567-020-01093-z
+  - label: www
+    url: https://www.nature.com/articles/s41567-020-01093-z
+  - label: pdf
+    url: /uploads/2021/08/coulais_natphys2021.pdf
+- year: 2020
+  title: Observation of non-Hermitian topology and its bulk-edge correspondence in an active mechanical metamaterial.
+  citation: Ghatak A., Brandenbourger M., van Wezel J. and Coulais C.*, Proc. Natl. Ac. Sc. U.S.A.* (2020)
+  links:
+  - label: www
+    url: https://doi.org/10.1073/pnas.2010580117
+  - label: preprint
+    url: https://arxiv.org/pdf/1907.11619.pdf
+- year: 2020
+  title: Tunable flow asymmetry and flow rectification with bio-inspired soft leaflets
+  citation: Brandenbourger M., Dangremont A., Sprik R. and Coulais C., *Phys. Rev. Fluids, 5, 084102* (2020)
+  links:
+  - label: preprint
+    url: https://arxiv.org/abs/1910.04629
+  - label: www
+    url: https://journals.aps.org/prfluids/abstract/10.1103/PhysRevFluids.5.084102
+  - label: pdf
+    url: /uploads/2020/09/brandenbourger_prf2020.pdf
+- year: 2019
+  title: Non-reciprocal robotic metamaterials.
+  citation: Brandenbourger M., Locsin X., Lerner E. and Coulais C., *Nat. Commun., 10, 4608* (2019)
+  links:
+  - label: preprint
+    url: https://arxiv.org/abs/1903.03807
+  - label: www
+    url: https://www.nature.com/articles/s41467-019-12599-3
+- year: 2019
+  title: Viscoelastic snapping metamaterials.
+  citation: Dykstra D.M.J., Busink J., Ennis B. and Coulais C., *J. Appl. Mech.[invited article], 86, 111012* (2019)
+  links:
+  - label: www
+    url: https://appliedmechanics.asmedigitalcollection.asme.org/article.aspx?articleid=2736633
+  - label: preprint
+    url: https://arxiv.org/abs/1904.11888
+  - label: pdf
+    url: /uploads/2019/09/dykstra_jam2019.pdf
+- year: 2019
+  title: Stochastic buckling of self-assembled colloidal structures
+  citation: Stuij S., van Doorn J.M., Kodger T., Sprakel J., Coulais C. and Schall P., *Phys. Rev. Research, 1, 023033* (2019)
+  links:
+  - label: www
+    url: https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.1.023033
+  - label: preprint
+    url: https://arxiv.org/abs/1901.05810
+- year: 2018
+  title: Multi-step self-guided pathways for shape-changing metamaterials.
+  citation: Coulais C., Sabbadini A., Vink F. and van Hecke M., *Nature,*561*, 512-515* (2018)
+  links:
+  - label: preprint
+    url: https://arxiv.org/abs/1810.07605
+  - label: www
+    url: https://www.nature.com/articles/s41586-018-0541-0
+  - label: Nature News and Views
+    url: https://www.nature.com/articles/d41586-018-06787-2
+- year: 2018
+  title: A Characteristic Lengthscale causes Anomalous Size Effects and Boundary Programmability in Mechanical Metamaterials
+  citation: . Coulais C., Kettenis C. and van Hecke M., *Nat. Phys.,*14*, 40-44* (2018)
+  links:
+  - label: preprint
+    url: https://arxiv.org/abs/1708.04643
+  - label: www
+    url: https://www.nature.com/nphys/journal/vaop/ncurrent/full/nphys4269.html
+  - label: Nat. Phys. News and Views
+    url: https://www.nature.com/nphys/journal/vaop/ncurrent/full/nphys4287.html
+- year: 2017
+  title: As the extension, so the twist.
+  citation: Coulais C., *Science,*358, 994-995 (2017) *invited perspective article to feature the*
+  links:
+  - label: pdf
+    url: http://science.sciencemag.org/cgi/rapidpdf/358/6366/994?ijkey=KCPkFiwKDgT5I&keytype=ref&siteid=sci
+  - label: www
+    url: http://science.sciencemag.org/content/358/6366/994
+  - label: Science paper of Frenzel et al.
+    url: http://science.sciencemag.org/content/358/6366/1072
+- year: 2017
+  title: Coupling the Leidenfrost Effect and Elastic Deformations to Power Sustained Bouncing.
+  citation: Waitukaitis S.R., Zuiderwijk A., Souslov A., Coulais C. and van Hecke M., *Nat. Phys.,*13, 1095-1099 (2017)
+  links:
+  - label: preprint
+    url: https://arxiv.org/abs/1705.03530
+  - label: www
+    url: http://www.nature.com/nphys/journal/vaop/ncurrent/full/nphys4194.html?foxtrotcallback=true
+  - label: Nat. Phys. Cover
+    url: http://www.nature.com/nphys/journal/v13/n11/covers/index.html
+  - label: Washington Post
+    url: https://www.washingtonpost.com/news/speaking-of-science/wp/2017/07/24/these-bouncing-balls-on-a-hot-pan-led-to-a-new-physics-discovery/?utm_term=.705e08045f6a
+  - label: New Scientist
+    url: https://www.newscientist.com/article/2141618-screaming-gel-balls-reveal-a-way-to-power-soft-but-noisy-robots/
+  - label: Youtube
+    url: https://www.youtube.com/watch?v=8hp2B7dGt_A
+  - label: Seeker
+    url: https://www.google.com/url?hl=fr&q=https://www.facebook.com/SeekerMedia/videos/10155251821553387/?hc_ref%3DARQ7TIPa94s3gxOIA8ZRXPA6uefRQMDOAnVrZJy_r4ThkF4NdmUrq0Jhzf90UuRBtTc&source=gmail&ust=1502726127319000&usg=AFQjCNFfgp5Bl99Z5vWpMr_1FcDMaMzojQ
+  - label: NRC
+    url: https://www.nrc.nl/nieuws/2017/07/26/springende-gelballetjes-piepen-in-de-koekepan-12246664-a1567909
+  - label: Volkskrant
+    url: https://www.volkskrant.nl/wetenschap/van-grap-en-youtube-hit-tot-nature-publicatie-waarom-hydrogelballetjes-stuiteren-in-een-pan~a4507910
+  - label: RTL 4
+    url: https://www.rtlnieuws.nl/uitzendingen/rtl-nieuws-1930-uur-1402
+  - label: Kijk
+    url: https://www.kijkmagazine.nl/science/waarom-hydrogelballetjes-gillen-stuiteren/
+- year: 2017
+  title: A Nonlinear Beam Model to Describe the Postbuckling of Wide neo-Hookean
+  citation: Beams. Lubbers L.A., van Hecke M. and Coulais C., *J. Mech. Phys. Solids*, 106, 191-206 (2017)
+  links:
+  - label: www
+    url: http://www.sciencedirect.com/science/article/pii/S0022509616307979
+- year: 2017
+  title: Static Non-Reciprocity in Mechanical Metamaterials
+  citation: Coulais C., Sounas D. and Alù A., *Nature,*542, 461-464 (2017)
+  links:
+  - label: preprint
+    url: https://arxiv.org/abs/1704.03305
+  - label: www
+    url: http://www.nature.com/nature/journal/vaop/ncurrent/full/nature21044.html
+  - label: full text
+    url: http://em.rdcu.be/wf/click?upn=KP7O1RED-2BlD0F9LDqGVeSBQMBP3U6zFKmcxGkPo5ZOY-3D_xhtNyWzJtGh7e2UXWefLzc824aGMpNk9XaqEGMRztkUj8n5-2FvfpYhjprafxm6GfSgWtYoTj6AFx0wGKtiHG1CfdysIFejJiYUaw6nfqede6mR9GuAi-2Bdj5MYpGiE6qFNsbG-2FJ-2FFR2ddgyUtXJwceA7qIoeQoJ09wUu-2BYrpEC4c3VVjAfU1CJaDHZjdqxGeZ8-2FO7c1TQ5FCBAjnXVST4Kpw-3D-3D
+  - label: Physics World
+    url: http://physicsworld.com/cws/article/news/2017/feb/15/blocking-the-symmetry-of-motion
+  - label: Nature Podcast
+    url: http://www.nature.com/nature/podcast/index-2017-02-16.html
+  - label: NRC
+    url: https://www.nrc.nl/nieuws/2017/02/15/materiaal-reageert-maf-op-druk-6708562-a1546128
+  - label: Phys.org
+    url: https://phys.org/news/2017-02-mechanical-metamaterials-block-symmetry-motion.html
+- year: 2016
+  title: 'Programmable Mechanical Metamaterials: the Role of Geometry'
+  citation: Florijn B., Coulais C. and van Hecke M., *Soft Matter*, 12, 8736-8743 (2016)
+  links:
+  - label: preprint
+    url: http://arxiv.org/abs/1606.00658
+  - label: www
+    url: http://pubs.rsc.org/en/content/articlelanding/2016/sm/c6sm01271j
+  - label: pdf
+    url: /uploads/2016/07/florijn_softmatter2016.pdf
+- year: 2016
+  title: Combinatorial Design of Textured Mechanical Metamaterials
+  citation: Coulais C., Teomy E., de Reus K., Shokef Y. and van Hecke M., *Nature*, 535, 529-532 (2016)
+  links:
+  - label: preprint
+    url: http://arxiv.org/abs/1608.00625
+  - label: www
+    url: http://www.nature.com/doifinder/10.1038/nature18960
+  - label: New Scientist
+    url: https://www.newscientist.com/article/2099193-squishy-cubes-with-a-secret-smile-could-be-used-for-prosthetics/
+  - label: Nature Video
+    url: https://www.youtube.com/watch?v=9UfMrOa4wKs&feature=youtu.be
+  - label: Scientific American
+    url: http://www.scientificamerican.com/video/this-cube-shape-shifts-when-squished/
+  - label: PHYS.org
+    url: http://phys.org/news/2016-07-flexible-blocks.html
+  - label: 3ders.org
+    url: http://www.3ders.org/articles/20160728-dutch-metamaterials-breakthrough-3d-printed-cubes-to-perform-functions-when-under-pressure.html
+  - label: Volkskrant
+    url: http://www.volkskrant.nl/wetenschap/nederlandse-tegendraadse-rubberen-kubus-gaat-revolutie-ontketenen~a4347194/
+  - label: NRC
+    url: http://www.nrc.nl/nieuws/2016/07/28/deze-glimlach-ontstaat-onder-druk-3435569-a1513727
+  - label: Kennislink
+    url: http://www.kennislink.nl/publicaties/smiley-als-begin-van-een-materiaalrevolutie
+  - label: AT5
+    url: http://www.at5.nl/gemist/tv/123/24201/-
+  - label: RTLZ
+    url: http://www.rtlz.nl/tv/uitzendingen/rtl-z-nieuws-1400-uur-174
+  - label: pro-physik.de
+    url: http://www.pro-physik.de/details/news/9632491/Metawuerfel_mit_wandelbarer_Oberflaeche.html
+  - label: Haaretz
+    url: http://www.haaretz.com/israel-news/science/1.733891
+- year: 2016
+  title: Periodic Cellular Materials with Nonlinear Elastic Homogenized Stress-Strain Response at Small Strains
+  citation: Coulais C., *Intl. J. Solids. Struct.*, 97–98, 226–238 (2016).
+  links:
+  - label: pdf
+    url: /uploads/2016/07/coulais_ijss20161.pdf
+  - label: www
+    url: http://www.sciencedirect.com/science/article/pii/S002076831630186X
+- year: 2016
+  title: Local rheological measurements in the granular flow around an intruder
+  citation: Seguin A., Coulais C., Martinez F., Bertho Y. and Gondret P., *Phys. Rev. E.*, 93, 012904 (2016).
+  links:
+  - label: preprint
+    url: http://arxiv.org/abs/1507.07965
+  - label: www
+    url: http://journals.aps.org/pre/abstract/10.1103/PhysRevE.93.012904
+- year: 2015
+  title: Discontinuous Buckling of Wide Beams and Metabeams
+  citation: Coulais C., Overvelde J. T. B., Lubbers L. A., Bertoldi K. and van Hecke M., *Phys. Rev. Lett.*115, 044301 (2015).. in an APS Synopsis article by Katherine Wright.
+  links:
+  - label: pdf
+    url: /uploads/2015/07/coulais_prl2015.pdf
+  - label: www
+    url: http://journals.aps.org/prl/abstract/10.1103/PhysRevLett.115.044301
+  - label: link
+    url: https://youtu.be/pR_aAUI_1kI
+  - label: SI videos
+    url: http://corentincoulais.wordpress.com/publications/metabeam-movies/
+  - label: Highlighted
+    url: http://physics.aps.org/synopsis-for/10.1103/PhysRevLett.115.044301
+- year: 2015
+  title: 'Surface Wind Speed Statistics Modelling: Alternatives to Weibull Distribution and Performance Evaluation'
+  citation: Drobinski P, Coulais C. and Jourdier B., *Boundary Layer Meteorology*, 155, 3 (2015)*.*
+  links:
+  - label: pdf
+    url: /uploads/2014/09/drobinski_blm2015.pdf
+  - label: www
+    url: http://link.springer.com/article/10.1007%2Fs10546-015-0035-7
+- year: 2015
+  title: Elasticity of granular packings close to Jamming.
+  citation: Coulais C., Seguin A. and Dauchot O., *Materiaux & Techniques*, 103, 3, 2015 *(In french).*
+  links:
+  - label: pdf
+    url: /uploads/2014/09/coulais_mattech2015.pdf
+- year: 2014
+  title: Shear modulus and Dilatancy Softening in Granular Packings above Jamming
+  citation: 'Coulais C., Seguin A. and Dauchot O.,. click for the pdf. Picked as Editor’s suggestion and featured by in a APS Viewpoint article. Press releases : (in dutch), (in french)'
+  links:
+  - label: Phys. Rev. Lett. 113, 198001 (2014)
+    url: http://link.aps.org/doi/10.1103/PhysRevLett.113.198001
+  - label: here
+    url: /uploads/2014/11/coulais_prl2014.pdf
+  - label: Karen Daniels
+    url: http://nile.physics.ncsu.edu/cgi-bin/webpage
+  - label: Leiden University
+    url: http://nieuws.leidenuniv.nl/nieuws-2014/broosheid-van-materialen-gebruiken-als-mechanische-functionaliteit.html?utm_source=141111&utm_medium=e-mail&utm_content=broosheid-van-materialen-gebruiken-als-mechanische-functionaliteit&utm_campaign=nieuwsbrief
+  - label: Atomic and Renewable Energies Center
+    url: http://iramis.cea.fr/spec/Phocea/Vie_des_labos/Ast/ast.php?t=fait_marquant&id_ast=2413
+- year: 2014
+  title: Programmable Mechanical Metamaterials
+  citation: Florijn B., Coulais C. and van Hecke M.,. click for the pdf. Picked as Editor’s suggestion and featured by in a. Press releases:, (in dutch), (in dutch),.
+  links:
+  - label: Phys. Rev. Lett. 113, 175503 (2014)
+    url: http://link.aps.org/doi/10.1103/PhysRevLett.113.175503
+  - label: here
+    url: /uploads/2014/10/florijn_prl2014.pdf
+  - label: Philip Ball
+    url: http://www.philipball.co.uk/
+  - label: APS Focus article
+    url: http://physics.aps.org/articles/v7/109
+  - label: BBC
+    url: http://www.bbc.com/news/science-environment-31725045
+  - label: dutch journal NRC
+    url: http://www.nrc.nl/handelsblad/van/2014/oktober/18/nieuwe-natuurkunde-programmeerbaar-rubber-1429211
+  - label: Leiden University
+    url: http://science.leidenuniv.nl/index.php/faculteit/newsitem/ze_komen_zachte_robots_met_slim_schakelend_materiaal/
+  - label: Nature Materials
+    url: http://www.nature.com/nmat/journal/v13/n12/full/nmat4161.html
+- year: 2014
+  title: How the ideal jamming point illuminates the world of granular media
+  citation: Coulais C., Behringer R.P. and Dauchot O. *Soft Matter* 10, 1519-1536 (2014). click for the pdf.
+  links:
+  - label: here
+    url: /uploads/2014/09/coulais_softmatter.pdf
+- year: 2013
+  title: Champ de vitesses et de contraintes autour d’intrus en mouvement dans un matériau granulaire
+  citation: Seguin A., Coulais C., Martinez F, Bertho Y. and Gondret P., *CFM*, (2013).
+  links: []
+- year: 2013
+  title: The glass and jamming transitions in dense granular matter
+  citation: Coulais C., Candelier R. and Dauchot O., *AIP Conf. Proc.* 1542, 25 (2013).
+  links:
+  - label: pdf
+    url: /uploads/2014/10/aip_coulais_2013.pdf
+- year: 2012
+  title: Dynamics of the contacts reveals Widom lines for jamming
+  citation: Coulais C., Behringer R.P. and Dauchot O, *EPL (Europhysics Letters)* 100 (4), 44005 (2012).
+  links:
+  - label: pdf
+    url: /uploads/2014/10/2012epl_coulais.pdf
+- year: 2012
+  title: Vibrated granular media close to Jamming
+  citation: C Coulais, *Université Pierre et Marie Curie-Paris VI.*
+  links:
+  - label: pdf
+    url: /uploads/2014/10/manuscrit_thc3a8se_corentin_coulais.pdf
+- year: 2011
+  title: Suppressed compressibility at large scale in jammed packings of size-disperse spheres
+  citation: Berthier L., Chaudhuri P., Coulais C., Dauchot O., Sollich P., *Phys. Rev. Lett.* 106 (12), 120601 (2011).
+  links:
+  - label: pdf
+    url: /uploads/2014/10/berthier_prl_2011_e120601.pdf
+- year: 2010
+  title: The mechanical stress–strain properties of single electrospun collagen type I nanofibers
+  citation: Carlisle C.R., Coulais C., Guthold M., *Acta biomaterialia* 6 (8), 2997-3003 (2010).
+  links:
+  - label: pdf
+    url: /uploads/2014/10/carlisle_actabiomaterialia_2010.pdf
+- year: 2010
+  title: Rigidity of a Vibrated Amorphous Bi-Dimensional Packing of Grains
+  citation: Coulais C., Dauchot O., *Prog. Th. Phys. Supp.* 184, 134-142 (2010).
+  links:
+  - label: pdf
+    url: /uploads/2014/10/coulais_2010_ptps-184-134.pdf
+- year: 2009
+  title: The mechanical properties of individual, electrospun fibrinogen fibers
+  citation: Carlisle C.R., Coulais C., Namboothiry M., Carroll D.L., Hantgan R.R. and Guthold M., *Biomaterials* 30 (6), 1205-1213 (2009).
+  links:
+  - label: pdf
+    url: /uploads/2014/10/carlisle_biomaterials_2009.pdf

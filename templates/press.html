@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block main %}
+<header class="page-head">
+  <div class="wrap"><div class="ruled">
+    <p class="eyebrow">In the media</p>
+    <h1 class="page-title">Press</h1>
+  </div></div>
+</header>
+
+<div class="wrap">
+  {% for y, items in press_years %}
+  <section class="year-row">
+    <h2 class="year-label">{{ y }}</h2>
+    <ul class="press-list">
+      {% for a in items %}
+      <li>
+        {% if a.url %}<a class="press-title" href="{{ a.url }}" rel="noopener">“{{ a.title }}”</a>{% else %}<span class="press-title">“{{ a.title }}”</span>{% endif %}
+        <span class="meta">{{ a.outlet }}{% if a.date %} · {{ a.date }}{% endif %}</span>
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endfor %}
+</div>
+{% endblock %}

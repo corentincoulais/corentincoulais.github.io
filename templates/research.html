@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block main %}
+<header class="page-head">
+  <div class="wrap"><div class="ruled">
+    <p class="eyebrow">Research</p>
+    <h1 class="page-title">Research highlights</h1>
+    <p class="page-lead">Results from our lab, newest first.</p>
+    <nav class="chips" aria-label="Jump to year">
+      {% for y, posts in years %}<a class="chip" href="#y{{ y }}">{{ y }}</a>{% endfor %}
+    </nav>
+  </div></div>
+</header>
+
+<div class="wrap">
+  {% for y, posts in years %}
+  <section class="year-block" id="y{{ y }}">
+    <h2 class="year-label">{{ y }}</h2>
+    <div class="card-grid">
+      {% for post in posts %}{% include "partials/card.html" %}{% endfor %}
+    </div>
+  </section>
+  {% endfor %}
+</div>
+{% endblock %}

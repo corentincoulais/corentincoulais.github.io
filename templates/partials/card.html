@@ -1,0 +1,11 @@
+{# Research highlight card. Expects `post`. #}
+<article class="card">
+  <a class="card-link" href="{{ post.url }}">
+    <div class="card-media{% if post.image_fit == 'contain' %} is-contain{% endif %}">
+      {% if post.thumb %}<img src="{{ post.thumb }}" alt="" loading="lazy" decoding="async">{% else %}<div class="placeholder" aria-hidden="true"></div>{% endif %}
+    </div>
+    <time class="card-date" datetime="{{ post.date.strftime('%Y-%m-%d') }}">{{ post.date | date }}</time>
+    <h3 class="card-title">{{ post.title }}</h3>
+    <p class="card-summary">{{ post.summary }}</p>
+  </a>
+</article>

@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block main %}
+<header class="page-head">
+  <div class="wrap"><div class="ruled">
+    <p class="eyebrow">Recognition</p>
+    <h1 class="page-title">Awards, grants and careers</h1>
+  </div></div>
+</header>
+
+<div class="wrap">
+  {% for y, items in award_years %}
+  <section class="year-row">
+    <h2 class="year-label">{{ y }}</h2>
+    <ul class="award-list award-list-lg">
+      {% for a in items %}
+      <li>
+        {% if a.link %}<a class="meta" href="{{ a.link }}" rel="noopener">{{ a.date }} ↗</a>{% else %}<span class="meta">{{ a.date }}</span>{% endif %}
+        <span>{{ a.text | mdi }}</span>
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endfor %}
+</div>
+{% endblock %}

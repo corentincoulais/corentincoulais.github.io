@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block main %}
+{% set g = data.gallery %}
+<header class="page-head">
+  <div class="wrap"><div class="ruled">
+    <p class="eyebrow">Gallery</p>
+    <h1 class="page-title">Gallery</h1>
+    <p class="page-lead">{{ g.intro }}</p>
+  </div></div>
+</header>
+
+<div class="wrap">
+  <div class="gallery">
+    {% for ph in g.photos %}
+    <figure class="gallery-item">
+      <button type="button" class="gallery-zoom" aria-label="Enlarge: {{ ph.caption }}">
+        <img src="{{ ph.image }}" alt="{{ ph.caption }}" loading="lazy" decoding="async" data-zoom data-caption="{{ ph.caption }}"{% if ph.link %} data-link="{{ ph.link }}"{% endif %}>
+      </button>
+      <figcaption>
+        {% if ph.link %}<a href="{{ ph.link }}">{{ ph.caption }}</a>{% else %}{{ ph.caption }}{% endif %}
+      </figcaption>
+    </figure>
+    {% endfor %}
+  </div>
+</div>
+{% endblock %}

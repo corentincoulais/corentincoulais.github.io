@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block main %}
+{% set lab = data.lab %}
+<header class="page-head">
+  <div class="wrap"><div class="ruled">
+    <p class="eyebrow">Facilities</p>
+    <h1 class="page-title">Our lab</h1>
+    <p class="page-lead">{{ lab.intro | mdi }}</p>
+  </div></div>
+</header>
+
+<div class="wrap">
+  <div class="lab-grid">
+    {% for s in lab.sections %}
+    <section class="lab-card">
+      <span class="lab-index meta">{{ '%02d' % loop.index }}</span>
+      <h2 class="lab-title">{{ s.title }}</h2>
+      <ul class="lattice-list">
+        {% for item in s["items"] %}<li>{{ item | mdi }}</li>{% endfor %}
+      </ul>
+    </section>
+    {% endfor %}
+  </div>
+</div>
+{% endblock %}

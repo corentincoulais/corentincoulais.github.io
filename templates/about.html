@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block main %}
+<header class="page-head">
+  <div class="wrap"><div class="ruled">
+    <p class="eyebrow">About</p>
+    <h1 class="page-title">About the lab</h1>
+  </div></div>
+</header>
+
+<div class="wrap about-grid">
+  {% if about.image %}
+  <figure class="about-photo"><img src="{{ about.image }}" alt="" decoding="async"></figure>
+  {% endif %}
+  <div>
+    <div class="prose prose-lg">{{ about_body }}</div>
+    <div class="contact-card">
+      <h2 class="footer-title">Contact</h2>
+      <p><a href="mailto:{{ site.contact.email }}">{{ site.contact.email }}</a><br>
+      Tel: <a href="tel:{{ site.contact.phone | replace(' ', '') | replace('(0)', '') }}">{{ site.contact.phone }}</a></p>
+      <p>{% for line in site.contact.address %}{{ line }}{% if not loop.last %}<br>{% endif %}{% endfor %}</p>
+      <a class="more" href="{{ site.contact.map }}" rel="noopener">Show on map <span aria-hidden="true">↗</span></a>
+    </div>
+  </div>
+</div>
+{% endblock %}

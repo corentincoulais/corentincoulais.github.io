@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block main %}
+<article class="article">
+  <header class="article-head wrap-narrow">
+    <a class="back" href="/research/"><span aria-hidden="true">←</span> Research highlights</a>
+    <time class="meta" datetime="{{ post.date.strftime('%Y-%m-%d') }}">{{ post.date | date }}</time>
+    <h1 class="article-title">{{ post.title }}</h1>
+  </header>
+  {% if post.image %}
+  <figure class="article-hero wrap-mid">
+    <img src="{{ post.image }}" alt="{{ post.image_caption or '' }}" decoding="async" data-zoom{% if post.image_caption %} data-caption="{{ post.image_caption }}"{% endif %}>
+    {% if post.image_caption %}<figcaption>{{ post.image_caption }}</figcaption>{% endif %}
+  </figure>
+  {% endif %}
+  <div class="prose wrap-narrow">
+    {{ post.body | safe }}
+  </div>
+  <nav class="pager wrap-narrow" aria-label="More research highlights">
+    {% if older %}<a class="pager-link" href="{{ older.url }}"><span class="meta">← Previous</span><span>{{ older.title }}</span></a>{% else %}<span></span>{% endif %}
+    {% if newer %}<a class="pager-link pager-next" href="{{ newer.url }}"><span class="meta">Next →</span><span>{{ newer.title }}</span></a>{% endif %}
+  </nav>
+</article>
+{% endblock %}
