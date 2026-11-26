@@ -12,16 +12,16 @@ members:
   - 2013-2016, Post-Doc, Universiteit Leiden and AMOLF, Netherlands
   - 2009-2012, Ph.D. Physics, Université Pierre et Marie Curie, France
 - name: Freek van Gorp
-  role: PhD student
+  role: PhD Student
   email: f.r.e.vangorp@uva.nl
   photo: /uploads/2021/01/freek.png
   cv:
   - 2021-, PhD Candidate, Universiteit van Amsterdam, Netherlands
   - 2017-2021, Junior Lecturer, Universiteit van Amsterdam and Vrije Universiteit Amsterdam, NL
   - 2019-2021, MSc. student, Physics and Astronomy, Universiteit van Amsterdam, NL
-  - 2008-2012, B.Sc. Physics and Astronomy, Raboud University, NL
+  - 2008-2012, B.Sc. Physics and Astronomy, Radboud University, NL
 - name: Yao Du
-  role: PhD. student
+  role: PhD Student
   email: y.du3@uva.nl
   photo: /uploads/2023/04/yao.jpg
   cv:
@@ -68,7 +68,7 @@ members:
   cv:
   - 2025-, Postdoc, Universiteit van Amsterdam, Netherlands
   - 2024-2025, Postdoc, ENS Lyon, France
-  - 2021-2024, PhD, ENS Lyon, Netherlands
+  - 2021-2024, PhD, ENS Lyon, France
   - 2017-2021, BSc and MSc, Ecole Normale Supérieure Paris-Saclay, France
 - name: Roger Solé Borràs
   role: PhD Student
@@ -140,31 +140,33 @@ alumni:
   - name: Caroline Kopecz-Muller
     note: Postdoc University of Amsterdam, now Researcher at Ecole des Ponts, FR
   - name: Shahram Janbaz
-    note: Postdoc University of Amsterdam, Now Engineer at ASML
+    note: Postdoc University of Amsterdam, now Engineer at ASML
   - name: Lucie Domino
-    note: Postdoc University of Amsterdam, Now CNRS Researcher at IUSTI, University Aix-Marseille, FR
+    note: Postdoc University of Amsterdam, now CNRS Researcher at IUSTI, University Aix-Marseille, FR
   - name: Ananya Ghatak
     note: Postdoc University of Amsterdam
   - name: Martin Brandenbourger
-    note: Postdoc University of Amsterdam, Now CNRS Researcher at IRPHE, University Aix-Marseille, FR
+    note: Postdoc University of Amsterdam, now CNRS Researcher at IRPHE, University Aix-Marseille, FR
 - group: PhD students
   people:
   - name: Jonas Veenstra
     note: PhD Student University of Amsterdam, now Postdoc at ENS Lyon on a Rubicon grant
   - name: Wenfeng Liu
-    note: PhD Student University of Amsterdam, now Postdoc at Harvard on a rubicon grant
+    note: PhD Student University of Amsterdam, now Postdoc at Harvard on a Rubicon grant
   - name: Daan Haver
     note: PhD student University of Amsterdam, now Medical Physicist at Amsterdam UMC
   - name: Ryan van Mastrigt
-    note: PhD student University of Amsterdam and AMOLF, now Postdoc ESPCI on a Rubicon grant
+    note: PhD student University of Amsterdam and AMOLF, now Postdoc at ESPCI on a Rubicon grant
   - name: Xiaofei Guo
     note: PhD student University of Amsterdam, now Development Engineer at SiTime
   - name: David Dykstra
-    note: PhD student University of Amsterdam, Now System Engineer at Airbus D&S
+    note: PhD student University of Amsterdam, now System Engineer at Airbus D&S
   - name: Ellen Zheng
     note: PhD University of Amsterdam
 - group: MSc and BSc students
   people:
+  - name: Lode Vermeulen
+    note: MSc Student in Physics, University of Amsterdam, now PhD student at UvA
   - name: Mingyang Yue
     note: MSc Student in Physics, University of Amsterdam
   - name: Tianhao Li
@@ -189,7 +191,7 @@ alumni:
     note: MSc. student ENSTA Paris
   - name: Lennart Jager
     note: M.Sc. student University of Amsterdam
-  - name: Jeroen Glansdrop
+  - name: Jeroen Glansdorp
     note: M.Sc. student University of Amsterdam; B.Sc. student University of Amsterdam
   - name: Nigel Visser
     note: MSc student University of Amsterdam; BSc student University of Amsterdam, 2018
