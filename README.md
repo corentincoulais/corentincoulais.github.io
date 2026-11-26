@@ -82,7 +82,8 @@ wide (landscape works best); the left side is darkened so the text stays readabl
 interesting part gets cropped away, add `position:` (for example `50% 20%` keeps the top).
 
 **Homepage animations.** The three interactive animations (rotating squares; two motorised hinges
-obeying the odd constitutive law; chameleon) take turns in the "About the lab" section. Their captions
+obeying the odd constitutive law; chameleon) take turns in the "About the lab" section of the homepage
+and in the "Play with our metamaterials" section of the About page. Their captions
 and "read more" links are in `content/site.yaml` under `hero: visuals:`. To start on a specific one,
 link to `/#visual=odd` (or `squares`, `chameleon`).
 

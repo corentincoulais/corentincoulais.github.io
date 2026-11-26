@@ -50,19 +50,7 @@
       <div class="about-text">{{ about_html }}</div>
       <a class="more" href="/about/">Contact and directions →</a>
     </div>
-    {% set v0 = site.hero.visuals[0] %}
-    <figure class="hero-visual">
-      <canvas class="lattice" data-mode="{{ v0.key }}" role="img" aria-label="Interactive animation of a metamaterial"></canvas>
-      <div class="visual-switch" role="group" aria-label="Choose an animation">
-        {% for v in site.hero.visuals %}
-        <button type="button" data-visual="{{ v.key }}" data-caption="{{ v.caption }}" data-link="{{ v.link }}" data-link-text="{{ v.link_text }}" aria-pressed="{{ 'true' if loop.first else 'false' }}">{{ v.label }}</button>
-        {% endfor %}
-      </div>
-      <figcaption class="visual-caption">
-        <span class="visual-text">{{ v0.caption }}</span>
-        <a class="visual-link" href="{{ v0.link }}"><span>{{ v0.link_text }}</span> →</a>
-      </figcaption>
-    </figure>
+    {% include "partials/visuals.html" %}
   </div>
 </section>
 
