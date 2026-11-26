@@ -2,11 +2,11 @@ intro: In our lab, we use a combination of theory, numerical methods, 3D printin
 sections:
 - title: Numerical tools
   items:
-  - You can visit our [GitLab repository](https://uva-hva.gitlab.host/published-projects) where our custom codes are uploaded. We code mostly in Python, sometimes in Matlab
-  - In addition, we use the commercial softwares Abaqus and Comsol for finite element simulations
+  - You can visit our [GitLab repository](https://uva-hva.gitlab.host/published-projects) where our custom codes are uploaded. We code mostly in Python, sometimes in Matlab.
+  - In addition, we use the commercial software Abaqus and Comsol for finite element simulations.
 - title: Our mechanical testing equipment
   items:
-  - Instron 5943 (single column, 1kN) with a 500N and a 5N load cells
+  - Instron 5943 (single column, 1kN) with a 500N and a 5N load cell
   - Instron Electro pulse 3000TT (biaxial fatigue machine), with a 3000N/25Nm biaxial load cell
   - Instron 5985 (double column, 300kN) with a 300kN load cell, compression platens, 100kN and 30kN tension grips and a temperature chamber
   - Shaker Tira (1kN)
@@ -25,8 +25,8 @@ sections:
   - Metal printer Mlab 100R
   - Polyjet printer Connex Objet 500
   - Direct pellet extrusion 3D printer Pollen PAM o2 MC
-  - Silicone 3d printer Lynxter S300X LIQ 21-LIQ 11
-  - SLS 3d printer Formlabs 1+ 30W
+  - Silicone 3D printer Lynxter S300X LIQ 21-LIQ 11
+  - SLS 3D printer Formlabs Fuse 1+ 30W
   - SLA printers Formlabs 2 and Formlabs 3
   - Direct Ink printers Bioplotter Starters series and Hyrel engine SR
   - FDM printers Ultimaker, Felix and Bambu
