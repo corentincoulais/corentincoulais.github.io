@@ -11,7 +11,8 @@
 <meta property="og:title" content="{{ page_title or site.title }}">
 <meta property="og:description" content="{{ description or site.description }}">
 <meta property="og:url" content="{{ site.url }}{{ url }}">
-<meta property="og:image" content="{{ site.url }}{{ og_image or data.people.group_photo }}">
+{% set og_img = og_image or data.people.group_photo %}
+<meta property="og:image" content="{% if og_img.startswith(('http://', 'https://')) %}{{ og_img }}{% else %}{{ site.url }}{{ og_img }}{% endif %}">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="theme-color" content="#ffffff">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">

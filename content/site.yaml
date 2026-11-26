@@ -114,8 +114,8 @@ contact:
   map: https://www.openstreetmap.org/search?query=Science%20Park%20904%20Amsterdam
 
 links:
-  - { title: Google Scholar, url: "http://scholar.google.com/citations?user=7ytsbQgAAAAJ&hl=en&oi=ao" }
-  - { title: arXiv, url: "http://arxiv.org/find/all/1/all:+AND+coulais+corentin/0/1/0/all/0/1" }
-  - { title: ResearcherID, url: "http://www.researcherid.com/rid/P-3920-2015" }
+  - { title: Google Scholar, url: "https://scholar.google.com/citations?user=7ytsbQgAAAAJ&hl=en&oi=ao" }
+  - { title: arXiv, url: "https://arxiv.org/search/?query=Corentin+Coulais&searchtype=author" }
+  - { title: ResearcherID, url: "https://www.researcherid.com/rid/P-3920-2015" }
   - { title: GitLab (code), url: "https://uva-hva.gitlab.host/published-projects" }
-  - { title: Institute of Physics, url: "http://iop.uva.nl" }
+  - { title: Institute of Physics, url: "https://iop.uva.nl" }
