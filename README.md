@@ -75,9 +75,11 @@ by hand.
 **Add a picture to the gallery.** Put the file in `static/uploads/` and add an entry at the top
 of `data/gallery.yaml` (image, caption, and optionally a link to the related post).
 
-**Homepage photo.** The wide photo at the top of the homepage is set in `content/site.yaml`
-(`hero: image:`). Pick a landscape picture at least 1600 pixels wide; the left side is darkened so the
-text stays readable.
+**Homepage photos.** The photos at the top of the homepage cross-fade every 7 seconds. They are
+listed in `content/site.yaml` under `hero: slides:`, each with a caption and a link to the related
+post; the first one is shown first. To add one, copy a block. Pick a picture at least 1600 pixels
+wide (landscape works best); the left side is darkened so the text stays readable. If the
+interesting part gets cropped away, add `position:` (for example `50% 20%` keeps the top).
 
 **Homepage animations.** The three interactive animations (rotating squares; two motorised hinges
 obeying the odd constitutive law; chameleon) take turns in the "About the lab" section. Their captions

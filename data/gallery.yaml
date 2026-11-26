@@ -28,9 +28,21 @@ photos:
   - image: /uploads/2025/02/picture-1.jpg
     caption: "Failure by design: creating the ideal shock absorber (2025)"
     link: /2025/02/09/failure-by-design-creating-the-ideal-shock-absorber/
-  - image: /uploads/2025/02/metagrains.jpg
+  - image: /uploads/2025/02/harnessing-plasticity-briefing.jpg
+    caption: Harnessing plasticity in sequential metamaterials, from the Nature Research Briefing (2024)
+    link: /2025/02/09/failure-by-design-creating-the-ideal-shock-absorber/
+  - image: /uploads/2025/02/granular-metamaterials.jpg
     caption: Granular metamaterials (2025)
     link: /2025/02/09/granular-metamaterials/
+  - image: /uploads/2024/06/prl-cover-active-solids.jpg
+    caption: "Model of active solids: rigid body motion and shape-changing mechanisms, on the cover of Physical Review Letters (2024)"
+    link: https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.132.238303
+  - image: /uploads/2023/10/non-orientable-order.jpg
+    caption: "Non-orientable order: metamaterials with built-in frustration (2023)"
+    link: /2023/10/20/non-orientable-order/
+  - image: /uploads/2023/10/non-orientable-order-red.jpg
+    caption: "Non-orientable order: frustrated ring metamaterials (2023)"
+    link: /2023/10/20/non-orientable-order/
   - image: /uploads/2023/10/cover-suggestion_2021-07-12403e.jpg
     caption: Non-orientable order (2023)
     link: /2023/10/20/non-orientable-order/
@@ -40,9 +52,21 @@ photos:
   - image: /uploads/2023/05/elasto_active_highlight_356800.jpg
     caption: Self-oscillation and synchronisation in elastoactive structures (2023)
     link: /2023/05/08/self-oscillation-self-snapping-and-synchronisation-in-elastoactive-structures/
+  - image: /uploads/2022/11/neural-networks-combinatorial.jpg
+    caption: Neural networks learn combinatorial rules (2022)
+    link: /2022/11/19/neural-networks-learn-combinatorial-rules/
   - image: /uploads/2022/06/dsc_6926-e1655280025528.jpg
     caption: In the lab (2022)
     link: /about/
+  - image: /uploads/2022/04/edible-chocolate-printing.jpg
+    caption: "Edible metamaterials: 3D printing chocolate (2022)"
+    link: /2022/04/25/edible-metamaterials/
+  - image: /uploads/2022/04/edible-chocolate-shapes.jpg
+    caption: "Edible metamaterials: chocolate shapes with designed fracture (2022)"
+    link: /2022/04/25/edible-metamaterials/
+  - image: /uploads/2022/01/conformal-elasticity-foot.jpg
+    caption: "Conformal elasticity of metamaterials (2022). Image: Czajkowski et al., Nat. Commun. 13, 221 (2022), CC BY 4.0"
+    link: /2022/01/11/conformal-elasticity-of-metamaterials/
   - image: /uploads/2020/11/corentin_draftvlowres.jpg
     caption: Non-Hermitian topology (2020)
     link: /2020/11/13/non-hermitian-topology/

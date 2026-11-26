@@ -243,6 +243,42 @@ def make_env():
 # --------------------------------------------------------------------------- build
 
 
+A_TAG = re.compile(r"<a\b([^>]*)>", re.I)
+HREF_ATTR = re.compile(r'\bhref\s*=\s*"([^"]*)"', re.I)
+REL_ATTR = re.compile(r'\brel\s*=\s*"([^"]*)"', re.I)
+
+
+def own_hosts(site):
+    host = re.sub(r"^https?://", "", site.get("url", "")).split("/")[0].lower()
+    bare = host[4:] if host.startswith("www.") else host
+    return {bare, "www." + bare} if bare else set()
+
+
+def external_links_in_new_tab(text, hosts):
+    """Make every link to another website open in a new tab (target="_blank", rel="noopener")."""
+    def fix(m):
+        attrs = m.group(1)
+        href = HREF_ATTR.search(attrs)
+        if not href or re.search(r"\btarget\s*=", attrs, re.I):
+            return m.group(0)
+        url = html.unescape(href.group(1)).strip()
+        if not re.match(r"(https?:)?//", url, re.I):
+            return m.group(0)                      # internal page, #anchor, mailto:, tel:
+        host = re.split(r"[/?#:]", re.sub(r"^(https?:)?//", "", url, flags=re.I), 1)[0].lower()
+        if host in hosts:
+            return m.group(0)
+        rel = REL_ATTR.search(attrs)
+        if rel:
+            words = rel.group(1).split()
+            if "noopener" not in words:
+                words.append("noopener")
+            attrs = attrs[:rel.start()] + 'rel="%s"' % " ".join(words) + attrs[rel.end():]
+        else:
+            attrs += ' rel="noopener"'
+        return '<a%s target="_blank">' % attrs
+    return A_TAG.sub(fix, text)
+
+
 def write(target, path, text):
     path = os.path.join(target, path.lstrip("/"))
     if path.endswith("/"):
@@ -274,10 +310,13 @@ def build():
         "version": int(start),
     }
 
+    hosts = own_hosts(site)
+
     def render(url, template, section="", title="", **extra):
         ctx = dict(common, url=url, section=section, page_title=title, description=None, og_image=None)
         ctx.update(extra)
-        write(tmp, url, env.get_template(template).render(**ctx))
+        page = env.get_template(template).render(**ctx)
+        write(tmp, url, external_links_in_new_tab(page, hosts))
 
     # publications are numbered automatically, newest = highest number
     pubs = data["publications"]["publications"]

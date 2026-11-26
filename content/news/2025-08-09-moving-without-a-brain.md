@@ -5,7 +5,7 @@ slug: moving-without-a-brain
 image: /uploads/yt/yyASTwvHCuU.jpg
 ---
 
-Inspired by how brainless lifeforms such as starfish and slime moulds move around, we have constructed ‘odd’ objects that autonomously roll, crawl and wiggle over unpredictable terrain, including uphill and over obstacles placed in their way. These odd elastic metamaterials solve a key problem of robotic locomotion. Out in [Nature](https://www.nature.com/articles/s41586-025-08646-3#ref-CR17)!
+Inspired by how brainless lifeforms such as starfish and slime moulds move around, we have constructed ‘odd’ objects that autonomously roll, crawl and wiggle over unpredictable terrain, including uphill and over obstacles placed in their way. These odd elastic metamaterials solve a key problem of robotic locomotion. Out in [Nature](https://www.nature.com/articles/s41586-025-08646-3)! Read more in the [UvA press release](https://iop.uva.nl/news/2025/odd-objects-that-adapt-and-move-without-a-brain).
 
 {{< youtube yyASTwvHCuU >}}
 

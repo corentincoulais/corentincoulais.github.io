@@ -14,9 +14,59 @@ hero:
   lead: >-
     Artificial materials which combine microstructure and out-of-equilibrium processes
     to interact with their environment in a programmable fashion.
-  # The wide photo behind the introduction (darkened on the left so the text stays readable)
-  image: /uploads/2022/06/dsc_0168.jpg
-  image_alt: A robotic metamaterial made of motorised units
+  # The photos behind the introduction. They cross-fade every 7 seconds, in this order, and the first one
+  # is shown first. The left side is darkened so the text stays readable. Each needs `image` and
+  # `caption`; `link` (the related page) and `alt` (a description, if the caption is not one) are
+  # optional. `position` says which part of the photo to keep when it is cropped to the header's
+  # shape: "50% 50%" is the centre, "50% 20%" keeps the top, "80% 50%" keeps the right side.
+  slides:
+    - image: /uploads/2022/06/dsc_0168.jpg
+      caption: Odd robotic metamaterials that move without a brain (2025)
+      alt: A robotic metamaterial made of motorised units
+      link: /2025/08/09/moving-without-a-brain/
+    - image: /uploads/2026/10/time-crystal-2d.jpg
+      caption: A two-dimensional time crystal made of robotic building blocks (2026)
+      link: /2026/10/14/time-crystals-moving-to-an-internal-beat/
+    - image: /uploads/2017/09/picture_lowres.jpg
+      caption: Bigger is different (2017)
+      alt: A large metamaterial of rotating squares, compressed from above
+      link: /2017/09/25/bigger-is-different/
+      position: 50% 30%
+    - image: /uploads/2023/06/pxl_20230418_142935259_edit.jpg
+      caption: Stiff vibration dampers (2023)
+      alt: A hand pressing on a metal buckling metamaterial
+      link: /2023/06/06/stiff-vibration-dampers/
+      position: 50% 40%
+    - image: /uploads/2026/04/image.jpg
+      caption: A nanoscale chameleon (2026)
+      alt: Illustration of a stretchable nanopatterned membrane reflecting light of different colours
+      link: /2026/04/24/a-nanoscale-chameleon/
+    - image: /uploads/2026/04/image-3.jpg
+      caption: Physical learning in metamaterials (2026)
+      alt: Active robotic chains that have learned to form the letters of the word "learn"
+      link: /2026/04/25/physical-learning-in-metamaterials/
+    - image: /uploads/2025/02/granular-metamaterials.jpg
+      caption: Granular metamaterials (2025)
+      alt: A container of auxetic grains under compression, and a close-up of the grains
+      link: /2025/02/09/granular-metamaterials/
+    - image: /uploads/2022/04/edible-chocolate-printing.jpg
+      caption: Edible metamaterials (2022)
+      alt: A 3D printer depositing a chocolate metamaterial
+      link: /2022/04/25/edible-metamaterials/
+    - image: /uploads/2022/01/conformal-elasticity-foot.jpg
+      caption: Conformal elasticity of metamaterials (2022)
+      alt: A foot pressing on a metamaterial of rotating squares, with the conformal grid drawn on top
+      link: /2022/01/11/conformal-elasticity-of-metamaterials/
+      position: 40% 50%
+    - image: /uploads/2023/10/non-orientable-order.jpg
+      caption: Non-orientable order (2023)
+      alt: Ring-shaped frustrated metamaterials, one twisted like a Möbius strip
+      link: /2023/10/20/non-orientable-order/
+    - image: /uploads/2025/02/picture-1.jpg
+      caption: Harnessing plasticity for ideal shock absorption (2024)
+      alt: A researcher holding two metal metamaterial cylinders, before and after crushing
+      link: /2025/02/09/failure-by-design-creating-the-ideal-shock-absorber/
+      position: 50% 35%
   # The animations in the "About the lab" section (they take turns; visitors can pick one).
   # key must be one of: squares, odd, chameleon
   visuals:

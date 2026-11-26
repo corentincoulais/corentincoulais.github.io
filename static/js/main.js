@@ -22,6 +22,91 @@
     });
   }
 
+  // ---- homepage header: research photos that cross-fade. Only the first photo loads with the page;
+  // each next one is fetched while the current one shows. With reduced motion they do not advance
+  // on their own, but the buttons still work.
+  (function () {
+    var hero = document.querySelector(".hero");
+    var controls = hero && hero.querySelector(".hero-controls");
+    if (!controls) return;
+    var DELAY = 7000;
+    var imgs = [].slice.call(hero.querySelectorAll(".hero-img"));
+    var dots = [].slice.call(hero.querySelectorAll(".hero-dot"));
+    var credit = hero.querySelector(".hero-credit");
+    var pauseBtn = hero.querySelector(".hero-pause");
+    var cur = 0, wanted = 0, timer = null;
+    var userPaused = reduceMotion, onScreen = true;
+    hero.style.setProperty("--hero-delay", DELAY + "ms");
+    controls.hidden = false;
+
+    function load(i) {
+      var im = imgs[i];
+      if (!im.getAttribute("src") && im.getAttribute("data-src")) im.src = im.getAttribute("data-src");
+      return im;
+    }
+    function whenReady(im, cb) {
+      if (im.decode) { im.decode().then(cb, cb); return; }   // loaded and decoded, so the fade is smooth
+      if (im.complete && im.naturalWidth) return cb();
+      var done = function () { im.removeEventListener("load", done); im.removeEventListener("error", done); cb(); };
+      im.addEventListener("load", done);
+      im.addEventListener("error", done);
+    }
+    function running() { return !userPaused && onScreen && !document.hidden; }
+    function schedule() {
+      clearTimeout(timer);
+      var dot = dots[cur];
+      dot.classList.remove("is-timing");
+      hero.classList.toggle("is-playing", running());
+      if (!running()) return;
+      void dot.offsetWidth;            // restart the progress bar
+      dot.classList.add("is-timing");
+      timer = setTimeout(function () { show(cur + 1); }, DELAY);
+    }
+    function show(i) {
+      i = (i + imgs.length) % imgs.length;
+      wanted = i;
+      clearTimeout(timer);
+      var im = load(i);
+      whenReady(im, function () {
+        if (wanted !== i) return;      // another photo was chosen meanwhile
+        if (i !== cur) {
+          imgs[cur].classList.remove("is-active");
+          imgs[cur].setAttribute("aria-hidden", "true");
+          dots[cur].removeAttribute("aria-current");
+          dots[cur].classList.remove("is-timing");
+          cur = i;
+          im.classList.add("is-active");
+          im.removeAttribute("aria-hidden");
+          dots[i].setAttribute("aria-current", "true");
+          credit.querySelector("span").textContent = im.getAttribute("data-caption");
+          credit.setAttribute("href", im.getAttribute("data-link") || "#");
+        }
+        load((i + 1) % imgs.length);  // fetch the next photo in advance
+        schedule();
+      });
+    }
+    function setPaused(p) {
+      userPaused = p;
+      hero.classList.toggle("is-paused", p);
+      pauseBtn.setAttribute("aria-label", p ? "Play the photos" : "Pause the photos");
+      schedule();
+    }
+
+    dots.forEach(function (d, i) { d.addEventListener("click", function () { show(i); }); });
+    pauseBtn.addEventListener("click", function () { setPaused(!userPaused); });
+    document.addEventListener("visibilitychange", schedule);
+    if ("IntersectionObserver" in window) {
+      new IntersectionObserver(function (entries) {
+        onScreen = entries[0].isIntersecting;
+        schedule();
+      }).observe(hero);
+    }
+    setPaused(userPaused);
+    // start fetching the second photo once the page itself has loaded
+    if (document.readyState === "complete") load(1);
+    else window.addEventListener("load", function () { load(1); });
+  })();
+
   // ---- YouTube: load the player only when clicked (faster, and no Google requests before that)
   document.querySelectorAll(".yt-lite").forEach(function (btn) {
     btn.addEventListener("click", function () {
@@ -83,6 +168,7 @@
         var a = document.createElement("a");
         a.href = link;
         a.textContent = "Read more →";
+        if (a.host && a.host !== location.host) { a.target = "_blank"; a.rel = "noopener"; }  // other website
         if (cap) lbCap.appendChild(document.createTextNode(" · "));
         lbCap.appendChild(a);
       }

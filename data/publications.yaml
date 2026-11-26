@@ -61,7 +61,7 @@ publications:
   - label: Physics Viewpoint
     url: https://physics.aps.org/articles/v19/49
   - label: IoP News
-    url: https://iop.uva.nl/content/news/2026/04/materials---but-not-as-we-know-them.html?origin=hqZwIY6%2FTt2p%2FbYjLQhlIg
+    url: https://iop.uva.nl/news/2026/materials---but-not-as-we-know-them
 - year: 2026
   title: Metamaterials that learn to change shape
   citation: Du Y., Veenstra J., van Mastrigt R. and Coulais C., *Nat. Phys.* (2026)
@@ -75,7 +75,7 @@ publications:
   - label: Science Robotics Editor's choice
     url: https://www.science.org/doi/10.1126/scirobotics.aei8549
   - label: UvA Press
-    url: https://iop.uva.nl/content/news/2026/04/materials-that-learn-to-change-shape.html?origin=hqZwIY6%2FTt2p%2FbYjLQhlIg
+    url: https://iop.uva.nl/news/2026/materials-that-learn-to-change-shape
 - year: 2026
   title: Non-reciprocal buckling makes active filaments polyfunctional
   citation: Al-Izzi S.\*, Du Y.\*, Veenstra J., Morris R., Souslov A., Carlson A., Coulais C. and Binysh J., *Proc. Natl. Ac. Sc. U.S.A., 123, e2531723123* (2026)
@@ -87,7 +87,7 @@ publications:
   - label: Cover
     url: https://www.pnas.org/toc/pnas/123/11
   - label: IoP News
-    url: https://iop.uva.nl/content/news/2026/04/materials---but-not-as-we-know-them.html?origin=hqZwIY6%2FTt2p%2FbYjLQhlIg
+    url: https://iop.uva.nl/news/2026/materials---but-not-as-we-know-them
 - year: 2026
   title: Combinatorial Design of Floppy Modes and Frustrated Loops in Metamaterials
   citation: Liu W., Sigalov T., Coulais C. and Shokef Y., *Phys. Rev. Lett.*136 (3), 038202 (2026) [Editor’s suggestion]
@@ -121,7 +121,7 @@ publications:
   - label: www
     url: https://journals.aps.org/prx/abstract/10.1103/nrv2-9h8z
   - label: UvA press
-    url: https://iop.uva.nl/content/news/2025/08/the-wave-that-keeps-on-breathing.html
+    url: https://iop.uva.nl/news/2025/the-wave-that-keeps-on-breathing
   - label: new scientist NL
     url: https://www.newscientist.nl/nieuws/natuurkundigen-creeren-ademende-golf-in-robotisch-materiaal/
 - year: 2025
@@ -148,8 +148,20 @@ publications:
     url: https://www.nature.com/articles/s41586-025-08646-3
   - label: preprint
     url: https://arxiv.org/abs/2108.08837
-  - label: link
-    url: https://youtu.be/yyASTwvHCuU?si=Y0Y-3InsqhBXSmiK
+  - label: video
+    url: https://youtu.be/yyASTwvHCuU
+  - label: Quanta magazine
+    url: https://www.quantamagazine.org/wheel-made-of-odd-matter-spontaneously-rolls-uphill-20220615/
+  - label: Science Robotics
+    url: https://www.science.org/doi/10.1126/scirobotics.ady2833
+  - label: NPO1 radio
+    url: https://www.nporadio1.nl/fragmenten/de-nacht-van/01973d4b-c920-717b-bc78-a4748cecfbbb/2025-06-05-robots-zonder-brein-roekeloos-of-baanbrekend
+  - label: NewScientistNL
+    url: https://www.newscientist.nl/nieuws/vreemd-materiaal-kruipt-vooruit-als-hersenloze-levensvorm/
+  - label: UvA press
+    url: https://iop.uva.nl/news/2025/odd-objects-that-adapt-and-move-without-a-brain
+  - label: UChicago News
+    url: https://news.uchicago.edu/story/scientists-create-odd-objects-adapt-and-move-over-obstacles
 - year: 2025
   title: Tuning the buckling sequences of metamaterials using plasticity
   citation: Liu W., Ennis B. and Coulais C., *J. Mech. Phys. Solids, 196, 106019 (2025)*
@@ -181,7 +193,7 @@ publications:
   - label: Nature Research briefing
     url: https://www.nature.com/articles/d41586-024-03599-5
   - label: UvA Press release
-    url: https://iop.uva.nl/shared/uva/en/news/press-releases/2024/11/failure-by-design-creating-the-ideal-shock-absorber.html?origin=hqZwIY6%2FTt2p%2FbYjLQhlIg
+    url: https://www.uva.nl/en/news/2024/failure-by-design-creating-the-ideal-shock-absorber
   - label: Het Parool
     url: https://www.parool.nl/nederland/uva-en-tata-steel-ontwerpen-nieuw-soort-materiaal-dat-stijf-en-toch-licht-is-heel-geschikt-voor-een-auto~b6a3c49c/?referrer=https://duckduckgo.com/
   - label: De Ingenieur
@@ -211,7 +223,7 @@ publications:
   - label: www
     url: https://www.pnas.org/doi/10.1073/pnas.2317915121
   - label: UvA press
-    url: https://iop.uva.nl/content/news/2024/04/like-sands-through-the-hourglass---but-not-quite.html?origin=hqZwIY6%2FTt2p%2FbYjLQhlIg
+    url: https://iop.uva.nl/news/2024/like-sands-through-the-hourglass---but-not-quite
 - year: 2024
   title: Non-reciprocal topological solitons in active metamaterials
   citation: Veenstra J., Gamayun O., Guo, X., Sarvi A., Ventura Meinersen C. and Coulais C., *Nature*627, 528-533 (2024)
@@ -225,7 +237,7 @@ publications:
   - label: News & Views
     url: https://www.nature.com/articles/d41586-024-00622-7
   - label: UvA press
-    url: https://iop.uva.nl/content/news/2024/03/an-endless-domino-effect.html?origin=hqZwIY6%2FTt2p%2FbYjLQhlIg
+    url: https://iop.uva.nl/news/2024/an-endless-domino-effect
 - year: 2024
   title: Thermoresponsive oil-continuous gels based on double-interpenetrating colloidal-particle networks
   citation: 'Macias-Rodriguez B., Gouzy R., Coulais C and Velikov K. P., *Soft Matter DOI: (2024)*'
@@ -255,7 +267,7 @@ publications:
   - label: PNAS Commentary
     url: https://www.pnas.org/doi/abs/10.1073/pnas.2322681121
   - label: UvA press
-    url: https://iop.uva.nl/content/news/2024/01/new-method-flips-the-script-on-topological-physics.html?origin=hqZwIY6%2FTt2p%2FbYjLQhlIg
+    url: https://iop.uva.nl/news/2024/new-method-flips-the-script-on-topological-physics
 - year: 2023
   title: Emergent nonlocal combinatorial design rules for multimodal metamaterials
   citation: van Mastrigt, Coulais C. and van Hecke, *Phys. Rev. E*, 108, 065002 (2023)
@@ -273,8 +285,8 @@ publications:
   - label: www
     url: https://onlinelibrary.wiley.com/doi/abs/10.1002/adma.202301747
   - label: UvA Press release
-    url: https://iop.uva.nl/content/news/2023/06/buckle-up-a-new-class-of-materials-is-here.html
-  - label: link
+    url: https://iop.uva.nl/news/2023/buckle-up-a-new-class-of-materials-is-here
+  - label: video
     url: https://www.youtube.com/watch?v=fjIZdACzVuI
 - year: 2023
   title: Non-orientable order and non-commutative response in frustrated metamaterials
@@ -287,7 +299,7 @@ publications:
   - label: pdf
     url: https://hdl.handle.net/11245.1/3c25adf1-20f9-4762-a7fd-b129d63707ed
   - label: UvA Press release
-    url: https://iop.uva.nl/content/news/2023/06/metamaterials-with-built-in-frustration-have-mechanical-memory.html?origin=hqZwIY6%2FTt2p%2FbYjLQhlIg
+    url: https://iop.uva.nl/news/2023/metamaterials-with-built-in-frustration-have-mechanical-memory
   - label: condmat JC
     url: https://www.condmatjclub.org/uploads/2022/02/JCCM_February_2022_01.pdf
 - year: 2023
@@ -307,7 +319,7 @@ publications:
   - label: pdf
     url: /uploads/2023/05/zheng_prl2023.pdf
   - label: UvA Press release
-    url: https://iop.uva.nl/content/news/2023/05/toys-demonstrate-how-biological-machines-move.html
+    url: https://iop.uva.nl/news/2023/toys-demonstrate-how-biological-machines-move
 - year: 2023
   title: Control Architectures for Metamaterials in Vibration Control
   citation: Buskes V.F., Kaczmarek M.B., Veenstra J.C., Coulais C. and HosseinNia S.H., *IEEE Int. Conf. Mechatron.*, DOI:10.1109/ICM54990.2023.10101931 (2023)
@@ -327,7 +339,7 @@ publications:
   - label: APS Synopsis
     url: https://physics.aps.org/articles/v15/s150
   - label: UvA Press Release
-    url: https://iop.uva.nl/content/news/2022/11/floppy-or-not-ai-predicts-properties-of-complex-metamaterials.html?cb
+    url: https://iop.uva.nl/news/2022/floppy-or-not-ai-predicts-properties-of-complex-metamaterials
   - label: pdf
     url: /uploads/2022/11/vanmastrigt_prl2022.pdf
   - label: Materials Today
@@ -397,7 +409,7 @@ publications:
   - label: www
     url: https://www.pnas.org/content/118/21/e2018610118
   - label: uva press release
-    url: https://iop.uva.nl/content/news/2021/05/one-material-two-functionalities.html
+    url: https://iop.uva.nl/news/2021/one-material-two-functionalities
 - year: 2021
   title: Snappy data storage
   citation: Coulais C., Nature 589, 360-361 (2021) *invited News and Views article to feature the*
@@ -606,7 +618,7 @@ publications:
     url: /uploads/2015/07/coulais_prl2015.pdf
   - label: www
     url: http://journals.aps.org/prl/abstract/10.1103/PhysRevLett.115.044301
-  - label: link
+  - label: video
     url: https://youtu.be/pR_aAUI_1kI
   - label: SI videos
     url: http://corentincoulais.wordpress.com/publications/metabeam-movies/

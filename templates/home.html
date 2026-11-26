@@ -2,14 +2,33 @@
 {% block main %}
 {% set people = data.people %}
 
-<section class="hero">
-  <img class="hero-img" src="{{ site.hero.image }}" alt="{{ site.hero.image_alt }}" fetchpriority="high" decoding="async">
+{% set slides = site.hero.slides %}
+<section class="hero" aria-label="Introduction">
+  {% for s in slides %}
+  <img class="hero-img{% if loop.first %} is-active{% endif %}" {% if loop.first %}src="{{ s.image }}" fetchpriority="high"{% else %}data-src="{{ s.image }}" aria-hidden="true"{% endif %} alt="{{ s.alt or s.caption }}" decoding="async" data-caption="{{ s.caption }}" data-link="{{ s.link or '' }}"{% if s.position %} style="object-position: {{ s.position }}"{% endif %}>
+  {% endfor %}
   <div class="hero-text">
     <div class="wrap">
       <div class="ruled">
         <h1 class="hero-title">{{ site.hero.title | mdi }}</h1>
         <p class="hero-lead">{{ site.hero.lead }}</p>
       </div>
+    </div>
+  </div>
+  <div class="hero-meta">
+    <div class="wrap">
+      <a class="hero-credit" href="{{ slides[0].link or '#' }}" aria-live="polite"><span>{{ slides[0].caption }}</span> →</a>
+      {% if slides | length > 1 %}
+      <div class="hero-controls" hidden>
+        <div class="hero-dots" role="group" aria-label="Choose a photo">
+          {% for s in slides %}<button type="button" class="hero-dot" aria-label="Photo {{ loop.index }}: {{ s.caption }}"{% if loop.first %} aria-current="true"{% endif %}></button>{% endfor %}
+        </div>
+        <button type="button" class="hero-pause" aria-label="Pause the photos">
+          <svg class="i-pause" viewBox="0 0 16 16" aria-hidden="true"><rect x="4" y="3" width="2.6" height="10" rx=".6"/><rect x="9.4" y="3" width="2.6" height="10" rx=".6"/></svg>
+          <svg class="i-play" viewBox="0 0 16 16" aria-hidden="true"><path d="M5 3.2v9.6a.6.6 0 0 0 .9.5l7.4-4.8a.6.6 0 0 0 0-1L5.9 2.7a.6.6 0 0 0-.9.5z"/></svg>
+        </button>
+      </div>
+      {% endif %}
     </div>
   </div>
 </section>
@@ -73,7 +92,7 @@
     <h2 class="section-title">Recent publications</h2>
     <ol class="pub-list">
       {% for e in pubs_recent %}
-      <li class="pub"><span class="pub-n">[{{ e.n }}]</span><div><h3 class="pub-title">{{ e.title }}</h3><p class="pub-cite">{{ e.citation | mdi }}</p></div></li>
+      <li class="pub"><span class="pub-n">[{{ e.n }}]</span><div><h3 class="pub-title">{{ e.title }}</h3><p class="pub-cite">{{ e.citation | mdi }}</p>{% if e.links %}<p class="pub-links">{% for l in e.links %}<a class="tag" href="{{ l.url }}" rel="noopener">{{ l.label }}</a>{% endfor %}</p>{% endif %}</div></li>
       {% endfor %}
     </ol>
     <div class="row-end"><a class="more" href="/publications/">All publications →</a></div>
