@@ -1,7 +1,7 @@
 ---
-title: Reiventing the wheel
+title: Reinventing the wheel
 date: 2022-06-16 12:18
-slug: reiventing-the-wheel
+slug: reinventing-the-wheel
 image: /uploads/yt/v82ykviKDqg.jpg
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Neural networks learn combinatorial rules.
+title: Neural networks learn combinatorial rules
 date: 2022-11-19 23:23
 slug: neural-networks-learn-combinatorial-rules
 ---
